@@ -135,7 +135,7 @@
         position: absolute;
         background-color: transparent;
         border: none;
-        left: 109px;
+        left: 119px;
     }
     &__search-input {
         color: $white-secondary;
@@ -144,11 +144,17 @@
         line-height: 22px;
         width: 89px;
         border: none;
+        background-color: transparent;
     }
     &__link-item {
         color: $gold-logo;
         font-size: 18px;
         font-weight: 700;
         line-height: 22px;
+    }
+    &__icon {
+        width: 24px;
+        height: 24px;
+        fill: $white-text;
     }
 }
