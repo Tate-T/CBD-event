@@ -318,5 +318,10 @@
         font-size: 28px;
         line-height: 36px;
     }
+    &__facebook, &__twitter, &__google, &__youtube {
+        fill: $white-secondary;
+        max-width: 24px;
+        max-height: 24px;
+    }
 }
 }
