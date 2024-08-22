@@ -2,14 +2,17 @@
   padding-top: 24px;
   padding-bottom: 8px;
   background-color: $green-footer;
+  height: 1030px;
 
   @media screen and (min-width: 768px) {
     padding-top: 40px;
     padding-bottom: 8px;
+    height: 940px;
   }
   @media screen and (min-width: 1360px) {
     padding-top: 64px;
     padding-bottom: 8px;
+    height: 644px;
   }
   &__container {
     position: relative;
@@ -59,7 +62,7 @@
     flex-direction: column;
 
     @media screen and (min-width: 768px) {
-      gap: 111;
+      gap: 154px;
       flex-direction: row;
     }
     @media screen and (min-width: 1360px) {
@@ -71,11 +74,12 @@
     @media screen and (min-width: 768px) {
       display: inherit;
       width: 200px;
+      height: 40px;
       padding: 12px 8px;
       border: 1px solid $gold-logo;
       gap: 8px;
       color: $gold-text;
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 700;
       line-height: 18px;
       margin-top: 48px;
@@ -132,7 +136,7 @@
     color: $white-secondary;
     font-weight: 400;
     line-height: 18px;
-    font-size: 12px;
+    font-size: 13px;
     width: 154px;
 
     @media screen and (min-width: 768px) {
@@ -147,12 +151,12 @@
   }
   &__list {
     display: flex;
-    column-gap: 20px;
-    row-gap: 21px;
+    column-gap: 21px;
+    row-gap: 24px;
     flex-wrap: wrap;
 
     @media screen and (min-width: 768px) {
-      gap: 16px;
+      gap: 24px;
       flex-wrap: nowrap;
       padding-top: 4px;
     }
@@ -183,18 +187,22 @@
     flex-direction: column;
     gap: 8px;
   }
-  &__item {
-    width: 160px;
-  }
   &__item:nth-child(1) {
+    width: 152px;
+    position: static;
     @media screen and (min-width: 768px) {
       width: 200px;
+      position: absolute;
+      left: 8px;
+      top: 100px;
     }
     @media screen and (min-width: 1360px) {
       width: 256px;
+      position: static;
     }
   }
   &__item:nth-child(2) {
+    width: 150px;
     @media screen and (min-width: 768px) {
       width: 183px;
     }
@@ -203,6 +211,8 @@
     }
   }
   &__item:nth-child(3) {
+    order: 4;
+    width: 150px;
     @media screen and (min-width: 768px) {
       width: 215px;
     }
@@ -211,29 +221,55 @@
     }
   }
   &__item:nth-child(4) {
+    width: 152px;
+    position: static;
     @media screen and (min-width: 768px) {
-      width: 236px;
+      width: 246px;
+      position: absolute;
+      top: 422px;
+      left: 8px;
     }
     @media screen and (min-width: 1360px) {
       width: 267px;
+      position: static;
     }
   }
   &__phone {
     color: $white-text;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 18px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 14px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      font-size: 16px;
+    }
   }
   &__email {
     color: $white-text;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 18px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 14px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      font-size: 16px;
+    }
   }
   &__icon-list {
     display: flex;
     gap: 8px;
-    margin-top: 12.08px;
+    margin-top: 8px;
+
+    @media screen and (min-width: 768px) {
+      margin-top: 12px;
+    }
   }
   &__codes {
     position: absolute;
@@ -242,14 +278,14 @@
     line-height: 18px;
     font-size: 12px;
     width: 251px;
-    top: 800px;
+    top: 865px;
     bottom: 74px;
     left: 0;
 
     @media screen and (min-width: 768px) {
       font-size: 14px;
       width: 315px;
-      top: 770px;
+      top: 684px;
       bottom: 98px;
       left: 389px;
     }
@@ -264,13 +300,15 @@
     }
   }
   &__div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 144px;
+    text-align: right;
+    margin-top: 124px;
+
     @media screen and (min-width: 768px) {
     //   gap: 174px;
-      margin-top: 60px;
+      margin-top: 436px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
     @media screen and (min-width: 1360px) {
     //   gap: 554px;
@@ -292,6 +330,7 @@
     @media screen and (min-width: 768px) {
       font-size: 14px;
       line-height: 18px; /* 128.571% */
+      font-weight: 400;
     }
     @media screen and (min-width: 1360px) {
       font-size: 18px;
@@ -318,10 +357,18 @@
         font-size: 28px;
         line-height: 36px;
     }
+  }
     &__facebook, &__twitter, &__google, &__youtube {
         fill: $white-secondary;
         max-width: 24px;
         max-height: 24px;
     }
+    &__span {
+      margin-left: 8px;
+
+      @media screen and (min-width: 1360px) {
+        margin-left: 16px;
+      }
+  }
 }
-}
+
