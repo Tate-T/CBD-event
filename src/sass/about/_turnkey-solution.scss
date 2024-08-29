@@ -138,6 +138,7 @@
     display: flex;
     gap: 17px;
     flex-direction: row;  
+    border-right: 0;
     @media screen and (min-width: 768px) {
         gap: 24px;
         flex-direction: column;
@@ -149,6 +150,7 @@
       @media screen and (min-width: 1360px) {
         gap: 24px;
         order: 0;
+        border-right: 0;
       }
   }
   &__text-div {
