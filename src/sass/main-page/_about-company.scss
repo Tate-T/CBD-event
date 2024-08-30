@@ -1,2 +1,118 @@
+.about-company {
+  padding-top: 16px;
+  padding-bottom: 48px;
 
+  @media screen and (min-width: 768px) {
+    padding-top: 64px;
+    padding-bottom: 48px;
+  }
+  @media screen and (min-width: 1360px) {
+    padding-top: 80px;
+    padding-bottom: 48px;
+  }
 
+  &__container {
+    @media screen and (min-width: 1360px) {
+      display: flex;
+      outline: transparent;
+    }
+  }
+
+  &__images {
+    min-width: 224px;
+
+    @media screen and (min-width: 768px) {
+      min-width: 212px;
+    }
+    @media screen and (min-width: 1360px) {
+      min-width: 210px;
+    }
+  }
+
+  &__textbox {
+    margin-left: 20px;
+    position: relative;
+  }
+
+  &__title {
+    max-width: 443px;
+    max-height: 80px;
+    color: $gold-text;
+    font-size: 56px;
+    font-family: Montserrat Alternates;
+    font-weight: 500;
+    line-height: 64px;
+    word-wrap: break-word;
+    margin-bottom: 26px;
+  }
+
+  &__line {
+    display: none;
+
+    @media screen and (min-width: 1360px) {
+      display: flex;
+      gap: 20px;
+
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &__line div {
+    min-width: 95px;
+    height: 2px;
+    background-color: $gold-text;
+  }
+
+  &__subtext {
+    color: #3d3c39;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    min-width: 667px;
+  }
+
+  &__description {
+    color: rgba(62, 16, 99, 1);
+    font-size: 18px;
+    min-width: 339px;
+
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+    margin-bottom: 32px;
+    padding-top: 30px;
+  }
+
+  &__chatbttn {
+    color: #04867e;
+    padding: 10px 43px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    min-width: 240px;
+    max-height: 42px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    outline: 2px solid black;
+    border-radius: 2px;
+  }
+
+  &__details-button {
+    color: #04867e;
+    padding: 10px 43px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    min-width: 240px;
+    max-height: 42px;
+    display: inline-block;
+    border-radius: 2px;
+    border-bottom: 2px solid black;
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 175px;
+    right: 40px;
+  }
+}
