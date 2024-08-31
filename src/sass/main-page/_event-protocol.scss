@@ -8,22 +8,22 @@
   @media screen and (min-width: 768px) {
     padding-top: 88px;
     padding-bottom: 64px;
-    background-image: url(../../img/tablet/main-page/backgroundprotoco@tablet1x.jpg);
+    background-image: url(../img/tablet/main-page/backgroundprotoco@tablet1x.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../../img/tablet/main-page/backgroundprotoco@tablet2x.jpg);
+      background-image: url(../img/tablet/main-page/backgroundprotoco@tablet2x.jpg);
     }
   }
   @media screen and (min-width: 1360px) {
     padding-top: 108px;
     padding-bottom: 113px;
-    background-image: url(../../img/desktop/main-page/backgroundprotocol@desktop1x.jpg);
+    background-image: url(../img/desktop/main-page/backgroundprotocol@desktop1x.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../../img/desktop/main-page/backgroundprotocol@desktop2x.jpg);
+      background-image: url(../img/desktop/main-page/backgroundprotocol@desktop2x.jpg);
     }
   }
 

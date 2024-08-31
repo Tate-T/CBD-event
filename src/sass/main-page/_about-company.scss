@@ -84,22 +84,30 @@
   }
 
   &__chatbttn {
-    color: #04867e;
-    padding: 10px 43px;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 22px;
-    min-width: 240px;
-    max-height: 42px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    outline: 2px solid black;
-    border-radius: 2px;
+  
+
+    @media screen and (min-width: 1360px) {
+      color: #04867e;
+      padding: 10px 43px;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22px;
+      min-width: 240px;
+      max-height: 42px;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      outline: 2px solid black;
+      border-radius: 2px;
+    }
   }
 
+
   &__details-button {
-    color: #04867e;
+    
+
+    @media screen and (min-width: 1360px) {
+      color: #04867e;
     padding: 10px 43px;
     font-size: 18px;
     font-weight: 700;
@@ -114,5 +122,6 @@
     position: absolute;
     top: 175px;
     right: 40px;
+    }
   }
 }
