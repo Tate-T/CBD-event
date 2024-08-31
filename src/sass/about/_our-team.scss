@@ -68,6 +68,7 @@
         border: 1px solid $white-secondary;
         background-color: $white-fon;
         position: relative;
+        margin-left: 0;
         @media screen and (min-width: 768px){
             width: 240px;
             height: 312px;
@@ -85,6 +86,7 @@
             padding: 100px 0px;
             background-color: transparent;
             border: none;
+            margin-left: 0;
         }
     }
     &__div {
