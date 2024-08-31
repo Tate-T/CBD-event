@@ -76,7 +76,7 @@
         line-height: 18px; /* 128.571% */
         border-bottom: none;
         position: static;
-        width: 100%;
+        width: 322px;;
         @media screen and (min-width: 768px){
             border-bottom: 1px solid $black-text;
             background: $white-text;
@@ -85,6 +85,7 @@
             padding: 12px 30px; 
             position: absolute;
             top: 80px;
+            width: 200px;
         }
         @media screen and (min-width: 1360px){
             position: static;
@@ -93,6 +94,7 @@
             display: block;
             margin: 0 auto;  
             padding: 12px 40px;  
+            width: 240px;
         }
     }
 }
