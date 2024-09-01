@@ -1,15 +1,62 @@
 .design {
   padding-top: 48px;
   padding-bottom: 48px;
+  background-repeat: no-repeat;
+  max-width: 376px;
+  margin: 0 auto;
+  background-size: 162px 120px, 162px 120px, 144px 256px;
+  background-position-x: 24px, 24px, 206px;
+  background-position-y: 280px, 144px, 144px;  
+  background-image: url(../img/mobile/main-page/long-table@mobile2x.webp),
+    url(../img/mobile/main-page/harrison@mobile1x.webp),
+    url(../img/mobile/main-page/gillian-harrison1@mobile2x.webp);
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../img/mobile/main-page/long-table@mobile2x.webp),
+      url(../img/mobile/main-page/harrison@mobile2x.webp),
+      url(../img/mobile/main-page/gillian-harrison1@mobile2x.webp);
+  }
 
   @media screen and (min-width: 768px) {
     padding-top: 82px;
     padding-bottom: 48px;
+    max-width: 768px;
+    margin: 0 auto;
+    background-size: 491px 291px, 276px 210px, 276px 210px;
+    background-position-x: 138px, 0px, 491px;
+    background-position-y: 267px, 162px, 453px;  
+    background-image: url(../img/tablet/main-page/long-table@tablet2x.webp),
+      url(../img/tablet/main-page/harrison@tablet1x.webp),
+      url(../img/tablet/main-page/gillian-harrison1@tablet2x.webp);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../img/tablet/main-page/long-table@tablet2x.webp),
+        url(../img/tablet/main-page/harrison@tablet2x.webp),
+        url(../img/tablet/main-page/gillian-harrison1@tablet2x.webp);
+    }
   }
 
   @media screen and (min-width: 1360px) {
-    padding-top: 108px;
+    padding-top: 100px;
     padding-bottom: 46px;
+    margin: 0 auto;
+    max-width: 1440px;
+    background-size: 720px 360px, 405px 260px, 402px 260px;
+    background-position-x: 360px, 158px, 878px;
+    background-position-y: 342px, 210px, 572px;  
+    background-image:       url(../img/desktop/main-page/long-table@desktop2x.webp),
+      url(../img/desktop/main-page/harrison@desktop1x.webp),
+      url(../img/desktop/main-page/gillian-harrison@desktop2x.webp);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../img/desktop/main-page/long-table@desktop2x.webp),
+        url(../img/desktop/main-page/harrison@desktop2x.webp),
+        url(../img/desktop/main-page/gillian-harrison@desktop2x.webp);
+    }
   }
 
   &__container {
@@ -21,78 +68,64 @@
     font-weight: 500;
     line-height: 40px;
     color: $gold-text;
-    margin-bottom: 16px;
 
     @media screen and (min-width: 768px) {
       font-size: 40px;
       line-height: 48px;
-      margin-bottom: 24px;
     }
 
     @media screen and (min-width: 1360px) {
       font-size: 56px;
       line-height: 64px;
-      margin-bottom: 40px;
     }
   }
 
   &__line {
+    margin-bottom: 288px;
+    @media screen and (min-width: 768px) {
+      margin-bottom: 524px;
+    }
+    @media screen and (min-width: 1360px) {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 660px;
+    }
+  }
+  &__line div {
     display: none;
 
     @media screen and (min-width: 768px) {
       display: none;
     }
-
     @media screen and (min-width: 1360px) {
       display: inherit;
-      display: flex;
-      gap: 20px;
-      justify-content: center;
-      align-items: center;
+      width: 433px;
+      height: 2px;
+      background-color: $gold-text;
     }
-  }
-  &__line div {
-    min-width: 433px;
-    height: 2px;
-    background-color: $gold-text;
-  }
-
-  &__list {
-    display: flex;
-    justify-content: center;
-    padding: 16px;
-    
-  }
-
-  &__images {
-    max-width: 276px;
-  }
-
-  &__images1 {
-    max-width: 491px;
-    // position: absolute;
   }
 
   &__bttn {
-    color: #04867e;
+    color: $green-text;
     padding: 12px 12px;
-    min-width: 343px;
-    background-color:rgba(248, 241, 233, 1);
+    width: 323px;
     border-radius: 4px;
-    
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    background-color: $white-fon;
 
     @media screen and (min-width: 768px) {
-        padding: 10px 43px;
+      padding: 10px 43px;
       font-size: 16px;
       font-weight: 700;
       line-height: 18px;
-      min-width: 240px;
-      max-height: 42px;
-      display: inline-block;
+      width: 200px;
       border-radius: 2px;
-      border-bottom: 2px solid black;
-      background: transparent;
-      cursor: pointer;
+      border-bottom: 2px solid $black-text;
+      background-color: transparent;
     }
 
     @media screen and (min-width: 1360px) {
@@ -100,10 +133,7 @@
       font-size: 18px;
       font-weight: 700;
       line-height: 22px;
-      min-width: 240px;
-      max-height: 42px;
-      display: inline-block;
-      
+      width: 240px;
     }
   }
 }
