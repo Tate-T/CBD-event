@@ -1,0 +1,184 @@
+.services {
+  padding-top: 48px;
+  padding-bottom: 112px;
+  background-color: grey;
+  @media screen and (min-width: 768px) {
+    padding-top: 80px;
+    padding-bottom: 48px;
+  }
+
+  @media screen and (min-width: 1360px) {
+    padding-top: 108px;
+  }
+
+  &__container {
+    @media screen and (min-width: 768px) {
+    }
+
+    @media screen and (min-width: 1360px) {
+    }
+  }
+
+  &__line {
+    @media screen and (min-width: 1360px) {
+      display: flex;
+      align-items: center;
+      flex-grow: 1;
+      gap: 20px;
+    }
+  }
+  &__line div {
+    display: none;
+    background-color: $gold-text;
+
+    @media screen and (min-width: 768px) {
+      display: inherit;
+      gap: 24px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      display: inherit;
+      width: 913px;
+      height: 2px;
+    }
+  }
+
+  &__bed {
+    width: 88px;
+    background-color: $gold-text;
+  }
+
+  &__midline {
+    display: flex;
+    align-items: center;
+    background-color: $white-fon;
+  }
+
+  &__midline div {
+    background-color: $gold-text;
+    height: 2px;
+    width: 400px;
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__title {
+    margin-bottom: 8px;
+    padding: 8px 8px;
+    color: $white-text;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 32px;
+      font-size: 40px;
+      line-height: 48px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      font-size: 56px;
+      line-height: 64px;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__list,
+  &__list1 {
+    border-radius: 8px;
+    padding: 16px 16px;
+    background-color: $white-fon;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    @media screen and (min-width: 768px) {
+      gap: 8px;
+    }
+
+    @media screen and (min-width: 1360px) {
+    }
+  }
+
+  &__item {
+    color: $black-text;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 24px;
+      line-height: 32px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+
+  &__bttnbox {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+      background-color: transparent;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 16px;
+    }
+  }
+
+  &__bttn {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+      color: $green-text;
+      background-color: rgba(253, 253, 253, 1);
+      padding: 12px 43px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      min-width: 240px;
+      max-height: 42px;
+      display: inline-block;
+      border-radius: 2px;
+      border-bottom: 2px solid black;
+      cursor: pointer;
+    }
+
+    @media screen and (min-width: 1360px) {
+    }
+  }
+
+  #paddingleft8px {
+    padding-left: 8px;
+
+    @media screen and (min-width: 768px) {
+      padding: 0px;
+    }
+  }
+
+  #paddingleft16px {
+    padding-left: 16px;
+    @media screen and (min-width: 768px) {
+      padding: 0px;
+    }
+  }
+
+  #paddingleft32px {
+    padding-left: 32px;
+    @media screen and (min-width: 768px) {
+      padding: 0px;
+    }
+  }
+
+  #paddingleft48px {
+    padding-left: 48px;
+    @media screen and (min-width: 768px) {
+      padding: 0px;
+    }
+  }
+}
