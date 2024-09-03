@@ -19,11 +19,11 @@
     }
   }
 
+
   &__line {
     @media screen and (min-width: 1360px) {
       display: flex;
       align-items: center;
-      flex-grow: 1;
       gap: 20px;
     }
   }
@@ -32,26 +32,28 @@
     background-color: $gold-text;
 
     @media screen and (min-width: 768px) {
-      display: inherit;
+      // display: inherit;
+      display: none;
       gap: 24px;
     }
 
     @media screen and (min-width: 1360px) {
-      display: inherit;
+      // display: inherit;
       width: 913px;
       height: 2px;
     }
   }
 
-  &__bed {
-    width: 88px;
-    background-color: $gold-text;
-  }
 
   &__midline {
     display: flex;
     align-items: center;
     background-color: $white-fon;
+
+    @media screen and (min-width: 768px) {
+      background-color: transparent;
+      padding-top: 24px;
+    }
   }
 
   &__midline div {
@@ -73,7 +75,7 @@
     line-height: 40px;
 
     @media screen and (min-width: 768px) {
-        margin-bottom: 32px;
+      margin-bottom: 32px;
       font-size: 40px;
       line-height: 48px;
     }
@@ -96,8 +98,22 @@
     @media screen and (min-width: 768px) {
       gap: 8px;
     }
+  }
+  &__list {
+    @media screen and (min-width: 768px) {
+      margin-right: 100px;
+    }
 
     @media screen and (min-width: 1360px) {
+      margin: 0px;
+    }
+  }
+  &__list1 {
+    @media screen and (min-width: 768px) {
+      margin-left: 100px;
+    }
+    @media screen and (min-width: 1360px) {
+      margin: 0px;
     }
   }
 
