@@ -65,14 +65,31 @@
         </ul>
         <div class="header__div-mobile">
             <a class="header__login" href="/">Логін | Зареєструватися</a>
-            <button type="button" class="header__mobile-menu">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="24" viewBox="0 0 32 24" fill="none">
-                    <path d="M2 1L30 1" stroke="#A76E00" stroke-width="2" stroke-linecap="round"/>
-                    <line x1="1" y1="7.66699" x2="31" y2="7.66699" stroke="#A76E00" stroke-width="2" stroke-linecap="round"/>
-                    <line x1="1" y1="23" x2="31" y2="23" stroke="#A76E00" stroke-width="2" stroke-linecap="round"/>
-                    <line x1="1" y1="15.333" x2="31" y2="15.333" stroke="#A76E00" stroke-width="2" stroke-linecap="round"/>
-                    </svg>
-            </button>
+            <nav class="navigation">
+                <input onclick="toggleText()"  type="checkbox" id="toggle">
+                <label  for="toggle">
+                  <span class="toggle-btn"></span>
+                  <!-- <svg class="header__icon"><use href="./img/symbol-defs.svg#icon-menu"></use></svg> -->
+                </label>
+                <div class="menu">
+                    <ul class="menu__link-list">
+                        <li class="menu__link-item">
+                            <a href="./about.html">Про нас</a>
+                        </li>
+                        <li class="menu__link-item">
+                            <a href="./services.html">Сервіси</a>
+                        </li>
+                        <li class="menu__link-item">
+                            <a href="/">Клієнти</a>
+                        </li>
+                        <li class="menu__link-item">
+                            <a href="/">Контакти</a>
+                        </li>
+                        <li class="menu__link-item">
+                            <a href="/">Події</a>
+                        </li>
+                    </ul>
+              </nav>
         </div>
     </div>
 </header>

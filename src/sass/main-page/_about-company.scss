@@ -1,11 +1,11 @@
 .about-company {
   padding-top: 16px;
-  padding-bottom: 48px;
+  padding-bottom: 92px;
 
 
   @media screen and (min-width: 768px) {
     padding-top: 64px;
-    padding-bottom: 48px;
+    padding-bottom: 40px;
   }
   @media screen and (min-width: 1360px) {
     padding-top: 80px;
@@ -13,42 +13,75 @@
   }
 
   &__container {
-    @media screen and (min-width: 1360px) {
-      display: flex;
-      outline: transparent;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 300px;
+    @media screen and (min-width: 768px) {
+      padding-top: 0;
     }
   }
 
   &__images {
-    min-width: 224px;
+    width: 200px;
+    height: 240px;
+    border-radius: 8px;
+    border: 2px solid $white-fon;
+    position: absolute;
+    top: 52px;
+    left: -20px;
 
     @media screen and (min-width: 768px) {
-      min-width: 212px;
+      width: 212px;
+      height: 204px;
+      position: static;
     }
     @media screen and (min-width: 1360px) {
-      min-width: 210px;
+      width: 210px;
+      height: 210px;
     }
   }
 
   &__textbox {
-    margin-left: 20px;
     position: relative;
+    padding-top: 0;
+
+    @media screen and (min-width: 768px) {
+      margin-left: 44px;
+      padding-top: 16px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      margin-left: 20px;
+      padding-top: 8px;
+    }
   }
 
   &__title {
-    max-width: 443px;
-    max-height: 80px;
     color: $gold-text;
-    font-size: 56px;
-    font-family: Montserrat Alternates;
     font-weight: 500;
-    line-height: 64px;
-    word-wrap: break-word;
-    margin-bottom: 26px;
+    position: absolute;
+    left: 178px;
+    top: -240px;
+    font-size: 30px;
+    line-height: 40px; /* 133.333% */
+
+    @media screen and (min-width: 768px) {
+      font-size: 40px;
+      line-height: 48px; /* 120% */
+      margin-bottom: 24px;
+      position: static;
+    }
+
+    @media screen and (min-width: 1360px) {
+      font-size: 56px;
+      line-height: 64px;
+      margin-bottom: 26px;
+    }
   }
 
   &__line {
-    display: none;
+    display: inherit;
 
     @media screen and (min-width: 1360px) {
       display: flex;
@@ -59,70 +92,184 @@
     }
   }
   &__line div {
-    min-width: 95px;
-    height: 2px;
-    background-color: $gold-text;
+    display: none;
+
+    @media screen and (min-width: 1360px) {
+      width: 95px;
+      height: 2px;
+      background-color: $gold-text;
+      display: inherit;
+    }
+
   }
 
   &__subtext {
-    color: #3d3c39;
-    font-size: 18px;
+    color: $black-text;
+    width: 327px;
+    color: $black-text;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 32px;
-    min-width: 667px;
+    line-height: 18px; /* 128.571% */
+    @media screen and (min-width: 768px) {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px;
+      width: 426px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+      width: 647px;
+    }
   }
 
   &__description {
-    color: rgba(62, 16, 99, 1);
-    font-size: 18px;
-    min-width: 339px;
-
+    color: $blue-information;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 32px;
-    word-wrap: break-word;
-    margin-bottom: 32px;
-    padding-top: 30px;
+    line-height: 18px; /* 150% */
+
+    @media screen and (min-width: 768px) {
+      font-size: 14px;
+      line-height: 18px;
+      order: 2;
+    }
+
+    @media screen and (min-width: 1360px) {
+      font-size: 18px;
+      width: 339px;
+      line-height: 32px;
+      order: 0;
+    }
   }
 
   &__chatbttn {
-  
+    color: $green-text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: $white-fon;
+    width: 323px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 8px;
+    @media screen and (min-width: 768px) {
+      color: $green-text;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 18px; 
+      outline: 2px solid $black-text;
+      border-radius: 2px;
+      width: 200px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      margin-top: 0;
+      background-color: transparent;
+    }
 
     @media screen and (min-width: 1360px) {
-      color: #04867e;
+      color: $green-text;
+      padding: 10px 35px;
+      font-size: 18px;
+      line-height: 22px;
+      width: 240px;
+      display: block;
+      margin-right: 0;
+      margin-left: auto;
+    }
+  }
+
+
+  &__details-button {
+    display: inherit;
+    border-radius: 4px;
+    background-color: $white-fon;
+    color: $green-text;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px; 
+    width: 323px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 24px;
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+
+    @media screen and (min-width: 1360px) {
+      color: $green-text;
       padding: 10px 43px;
       font-size: 18px;
       font-weight: 700;
       line-height: 22px;
       min-width: 240px;
       max-height: 42px;
-      display: block;
-      margin-right: auto;
-      margin-left: auto;
-      outline: 2px solid black;
+      display: inline-block;
       border-radius: 2px;
+      border-bottom: 1px solid $black-text;
+      background: transparent;
+      cursor: pointer;
+      position: absolute;
+      top: 190px;
+      right: 25px;
+      margin-top: 0;
     }
   }
-
-
-  &__details-button {
-    
-
+  &__chat {
+    display: flex;
+    flex-direction: column;
+    order: -1;
+    margin-bottom: 24px;
+    @media screen and (min-width: 768px) {
+      gap: 16px;
+      padding-top: 0;
+      margin-top: 38px;
+      order: 0;
+    }
     @media screen and (min-width: 1360px) {
-      color: #04867e;
-    padding: 10px 43px;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 22px;
-    min-width: 240px;
-    max-height: 42px;
-    display: inline-block;
-    border-radius: 2px;
-    border-bottom: 2px solid black;
-    background: transparent;
-    cursor: pointer;
+      gap: 32px;
+      padding-top: 20px;
+    }
+  }
+  &__line-box div {
+    @media screen and (min-width: 768px) {
+      display: inherit;
+
+      width: 400px;
+      height: 2px;
+      background-color: $gold-text;
+    }
+    @media screen and (min-width: 1360px) {
+      display: none;
+    }
+  }
+  &__line-box {
+    @media screen and (min-width: 768px) {
+      display: inherit;
+      padding-top: 105px;
+      margin-left: 24px;
+    }
+    @media screen and (min-width: 1360px) {
+      display: none;
+    }
+  }
+  &__line-mobile {
+    display: inherit;
     position: absolute;
-    top: 175px;
-    right: 40px;
+    left: 183px;
+    top: 110px;
+    background-color: $gold-text;
+    width: 160px;
+    height: 2px;
+    @media screen and (min-width: 768px) {
+      display: none;
     }
   }
 }
