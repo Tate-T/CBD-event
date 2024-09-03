@@ -1,7 +1,7 @@
 .video {
-background-color: rgba(151, 151, 151, 1);
+  background-color: rgba(151, 151, 151, 1);
 
-background-image: url(../img/desktop/main-page/backgroundvideo@tablet1x.jpg);
+  background-image: url(../img/desktop/main-page/backgroundvideo@tablet1x.jpg);
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -14,10 +14,9 @@ background-image: url(../img/desktop/main-page/backgroundvideo@tablet1x.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-    //   background-image: url(../img/desktop/main-page/backgroundprotocol@desktop2x.jpg);
+      //   background-image: url(../img/desktop/main-page/backgroundprotocol@desktop2x.jpg);
     }
   }
-
 
   &__container {
     padding-top: 48px;
@@ -40,7 +39,7 @@ background-image: url(../img/desktop/main-page/backgroundvideo@tablet1x.jpg);
   }
   &__line div {
     display: none;
-    background-color: black;
+    background-color: white;
 
     @media screen and (min-width: 1360px) {
       display: inherit;
@@ -70,7 +69,7 @@ background-image: url(../img/desktop/main-page/backgroundvideo@tablet1x.jpg);
   }
 
   &__box {
-    background-color:rgba(248, 241, 233, 1) ;
+    background-color: rgba(248, 241, 233, 1);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,13 +92,13 @@ background-image: url(../img/desktop/main-page/backgroundvideo@tablet1x.jpg);
 
   &__subtitle {
     margin-bottom: 16px;
-    color: #3e1063;
+    color: $blue-information;
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
 
     @media screen and (min-width: 768px) {
-        margin-bottom: 24px;
+      margin-bottom: 24px;
       font-size: 14px;
       line-height: 18px;
     }
@@ -119,11 +118,9 @@ background-image: url(../img/desktop/main-page/backgroundvideo@tablet1x.jpg);
     background-color: rgba(248, 241, 233, 1);
 
     @media screen and (min-width: 768px) {
-       
-    background-color: transparent;
-      }
+      background-color: transparent;
     }
-  
+  }
 
   &__bttn {
     font-weight: 700;
@@ -131,15 +128,13 @@ background-image: url(../img/desktop/main-page/backgroundvideo@tablet1x.jpg);
     line-height: 18px;
     border-radius: 4px;
     padding: 12px 43px;
-    
-  
+
     @media screen and (min-width: 768px) {
       background-color: rgba(253, 253, 253, 1);
     }
 
     @media screen and (min-width: 1360px) {
-       
-        color: #04867e;
+      color: #04867e;
       padding: 12px 43px;
       font-size: 18px;
       line-height: 22px;
@@ -149,8 +144,6 @@ background-image: url(../img/desktop/main-page/backgroundvideo@tablet1x.jpg);
       border-radius: 2px;
       border-bottom: 2px solid black;
       cursor: pointer;
-      }
     }
   }
-  
-
+}
