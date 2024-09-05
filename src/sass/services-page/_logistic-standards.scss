@@ -1,0 +1,48 @@
+.logistic {
+    padding-top: 100px;
+  padding-bottom: 48px;
+  width: 1440px;
+  height: 358px;
+
+  &__container {
+    position: relative;
+  }
+
+  &__title {
+    color: $gold-text;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px;
+    margin-left: 550px;
+  }
+
+  &__text {
+    color: $black-text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 16px;
+    margin-left: 450px;
+    margin-right: 20px;
+  }
+
+  &__button {
+    color: $green-text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    display: flex;
+    width: 240px;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border-bottom: 1px solid $black-text;
+    background: $white-text;
+    margin-top: 20px;
+  }
+}

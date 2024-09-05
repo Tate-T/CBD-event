@@ -1,0 +1,74 @@
+.services {
+  padding-top: 100px;
+  padding-bottom: 48px;
+  height: 1540px;
+  background-position-y: 215px;
+  background-repeat: no-repeat;
+  background-image: url(../../img/desktop/services-page/services-vektor@desktop1x.webp);
+
+  &__box {
+    display: flex;
+    padding: 8px;
+    gap: 8px;
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    color: $gold-text;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px;
+  }
+
+  &__div {
+    display: flex;
+    gap: 110px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+  }
+
+  &__lists {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    margin-top: 72px;
+  }
+
+  &__roster {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+  }
+
+  &__item {
+    width: 380px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background: $white-fon;
+  }
+
+  &__subtitle {
+    color: $gold-text;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding: 8px;
+  }
+
+  &__text {
+    color: $black-text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 6px;
+  }
+}

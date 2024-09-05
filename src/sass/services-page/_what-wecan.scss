@@ -1,0 +1,37 @@
+.what-wecan {
+  background-color: $white-secondary;
+  background-image: url(../img/desktop/about-page/service-plan@desktop1x.webp);
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 48px;
+  background-size: 350px 280px;
+  background-position-x: 60px;
+  height: 276px;
+
+  &__container {
+    position: relative;
+    padding-left: 580px;
+  }
+
+  &__title {
+    color: $white-fon;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px;
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    color: $black-text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-left: 208px;
+  }
+
+  &__div {
+    padding-left: 0;
+  }
+}
