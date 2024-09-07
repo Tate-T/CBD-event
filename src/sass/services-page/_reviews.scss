@@ -1,42 +1,78 @@
 .reviews {
   height: 670px;
+  padding-top: 100px;
   background-color: $white-secondary;
+  background-image: url(../../img/desktop/services-page/vektor@desktop-1x.webp);
+  background-position-x: 140px;
+  background-position-y: 430px;
   background-repeat: no-repeat;
 
   &__title {
+    display: flex;
+    justify-content: center;
     color: $white-fon;
     font-size: 56px;
     font-style: normal;
     font-weight: 500;
     line-height: 64px;
+    margin: 8px;
+    
+    padding-bottom: 32px;
   }
 
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
 
   &__item {
-    gap: 48px;
+    background-color: $white-fon;
     border-radius: 8px;
-    border: 1px solid $white-text;
-    background: $white-fon;
-    width: 886px;
+    border: 1px solid var(--white-text, #fdfdfd);
     height: 158px;
-    padding: 8px;
-    margin-bottom: 12px;
+    display: flex;
+    gap: 48px;
+  }
+
+  &__item:nth-child(1) {
+    width: 272px;
+    gap: 24px;
+
+    @media screen and (min-width: 768px) {
+      width: 524px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      width: 900px;
+    }
+  }
+
+  &__item:nth-child(2) {
+    width: 242px;
+    align-self: self-end;
+
+    @media screen and (min-width: 768px) {
+      width: 524px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      width: 900px;
+    }
   }
 
   &__img {
-    width: 120px;
-    height: 120px;
-    flex-shrink: 0;
+    width: 260px;
+    height: 95px;
   }
 
   &__text {
-    width: 703px;
-    height: 96px;
     color: $black-text;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    padding: 8px;
   }
 
   &__name {
@@ -45,5 +81,24 @@
     font-style: normal;
     font-weight: 700;
     line-height: 22px;
+    padding: 8px;
+  }
+
+  &__button {
+    color: $green-text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    display: flex;
+    width: 240px;
+    padding: 10px 16px;
+    margin-top: 3px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border-bottom: 1px solid $black-text;
+    background: $white-text;
   }
 }

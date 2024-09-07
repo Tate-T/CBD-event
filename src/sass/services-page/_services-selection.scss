@@ -1,74 +1,175 @@
 .services {
-  padding-top: 100px;
+  padding-top: 40px;
   padding-bottom: 48px;
-  height: 1540px;
+  
   background-position-y: 215px;
   background-repeat: no-repeat;
-  background-image: url(../../img/desktop/services-page/services-vektor@desktop1x.webp);
+  background-image: url(../img/desktop/services-page/services-vektor@desktop1x.webp);
+
+  @media screen and (min-width: 768px) {
+    padding-top: 80px;
+    padding-bottom: 48px;
+    background-image: url(../img/tablet/services-page/vectors@tablet-1x.webp);
+  }
+
+  @media screen and (min-width: 1360px) {
+    padding-top: 100px;
+    padding-bottom: 48px;
+    height: 1540px;
+  }
 
   &__box {
-    display: flex;
-    padding: 8px;
-    gap: 8px;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 48px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      margin-bottom: 40px;
+    }
   }
 
   &__title {
     color: $gold-text;
-    font-size: 56px;
+    padding: 8px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 500;
-    line-height: 64px;
+    line-height: 40px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 48px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 64px;
+    }
   }
 
   &__div {
     display: flex;
-    gap: 110px;
+    flex-direction: column;
+    gap: 8px;
+
+    @media screen and (min-width: 768px) {
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      flex-direction: row;
+      gap: 110px;
+    }
   }
 
   &__list {
     display: flex;
     flex-direction: column;
-    gap: 120px;
+    gap: 8px;
+
+    @media screen and (min-width: 768px) {
+      gap: 12px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      gap: 120px;
+    }
   }
 
   &__lists {
     display: flex;
     flex-direction: column;
-    gap: 120px;
-    margin-top: 72px;
+    gap: 8px;
+
+    @media screen and (min-width: 768px) {
+      gap: 12px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      gap: 120px;
+      margin-top: 72px;
+    }
   }
 
   &__roster {
     display: flex;
     flex-direction: column;
-    gap: 120px;
+    gap: 8px;
+
+    @media screen and (min-width: 768px) {
+      gap: 12px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      gap: 120px;
+    }
   }
 
   &__item {
-    width: 380px;
-    height: 320px;
     display: flex;
-    flex-direction: column;
+    gap: 8px;
     border-radius: 8px;
     background: $white-fon;
+    width: 343px;
+
+    @media screen and (min-width: 768px) {
+      width: 360px;
+      height: 80px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      width: 380px;
+      height: 320px;
+      flex-direction: column;
+    }
   }
 
   &__subtitle {
     color: $gold-text;
-    font-size: 28px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 36px;
-    padding: 8px;
+    font-weight: 400;
+    line-height: 24px;
+    
+
+    @media screen and (min-width: 768px) {
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 32px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 36px;
+      padding: 8px;
+    }
   }
 
   &__text {
-    color: $black-text;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    padding: 6px;
+    display: none;
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+
+    @media screen and (min-width: 1360px) {
+      color: $black-text;
+      display: inherit;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      padding: 8px;
+    }
   }
 }
