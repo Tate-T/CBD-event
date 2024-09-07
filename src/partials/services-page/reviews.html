@@ -1,26 +1,90 @@
 <section class="reviews">
-    <div class="container reviews__container">
-        <h2 class="reviews__title">Відгуки</h2>
-        <ul class="reviews__list">
-            <li class="reviews__item">
-                <div class="reviews__img-div">
-                 <img class="reviews__img" src="../img/desktop/services-page/adriana@desktop1x.webp" alt="reviews">
-                </div>
-                <div class="reviews__text-div">
-                    <p class="reviews__text">Це фантастична фірма з планування заходів. У нас була видатна подія в США, і єдине, що нам потрібно було зробити, це з’явитися. Айві та її команда виконали вражаючу роботу для уряду Бразилії.</p>
-                    <p class="reviews__name">Адріана Кастро, директор</p>
-                </div>
-            </li>
-            <li class="reviews__item">
-                <div class="reviews__text-div">
-                    <p class="reviews__text">Команда виконала фантастичну роботу для семінарів Світового банку з розвитку консолідації центральних банків приватного сектора. Ми в Африці, тому ми могли довірити їм усі деталі.</p>
-                    <p class="reviews__name">Маллам Санусі Ламідо Санусі, губернатор Центрального банку Нігерії</p>
-                </div>
-                <div class="reviews__img-div">
-                    <img class="reviews__img" src="../img/desktop/services-page/sanusi@desktop1x.webp" alt="reviews">
-                </div>
-            </li>
-        </ul>
-        <button type="button" class="reviews__button">Детальніше</button>
-    </div>
+  <div class="container reviews__container">
+    <h2 class="reviews__title">Відгуки</h2>
+    <ul class="reviews__list">
+      <li class="reviews__item">
+        <div class="reviews__img-div">
+          <picture>
+            <source
+              srcset="
+                ./img/desktop/services-page/adriana@desktop1x.webp 1x,
+                ./img/desktop/services-page/adriana@desktop2x.webp 2x
+              "
+              media="(min-width: 1360px)"
+            />
+            <source
+              srcset="
+                ./img/tablet/services-page/adriana@tablet1x.webp 1x,
+                ./img/tablet/services-page/adriana@tablet2x.webp 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/mobile/services-page/adriana@mobile1x.webp 1x,
+                ./img/mobile/services-page/adriana@mobile2x.webp 2x
+              "
+              media="(min-width: 320px)"
+            />
+            <img
+              class="reviews__image"
+              src="./img/mobile/services-page/adriana@mobile1x.webp"
+              alt="adriana image"
+            />
+          </picture>
+        </div>
+        <div class="reviews__text-div">
+          <p class="reviews__text">
+            Це фантастична фірма з планування заходів. У нас була видатна подія
+            в США, і єдине, що нам потрібно було зробити, це з’явитися. Айві та
+            її команда виконали вражаючу роботу для уряду Бразилії.
+          </p>
+          <p class="reviews__name">Адріана Кастро, директор</p>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <div class="reviews__text-div">
+          <p class="reviews__text">
+            Команда виконала фантастичну роботу для семінарів Світового банку з
+            розвитку консолідації центральних банків приватного сектора. Ми в
+            Африці, тому ми могли довірити їм усі деталі.
+          </p>
+          <p class="reviews__name">
+            Маллам Санусі Ламідо Санусі, губернатор Центрального банку Нігерії
+          </p>
+        </div>
+        <div class="reviews__img-div">
+          <picture>
+            <source
+              srcset="
+                ./img/desktop/services-page/sanusi@desktop1x.webp 1x,
+                ./img/desktop/services-page/sanusi@desktop2x.webp 2x
+              "
+              media="(min-width: 1360px)"
+            />
+            <source
+              srcset="
+                ./img/tablet/services-page/sanusi@tablet1x.webp 1x,
+                ./img/tablet/services-page/sanusi@tablet2x.webp 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/mobile/services-page/sanusi@mobile1x.webp 1x,
+                ./img/mobile/services-page/sanusi@mobile2x.webp 2x
+              "
+              media="(min-width: 320px)"
+            />
+            <img
+              class="reviews__image"
+              src="./img/mobile/services-page/sanusi@mobile1x.webp"
+              alt="sanusi image"
+            />
+          </picture>
+        </div>
+      </li>
+    </ul>
+    <button type="button" class="reviews__button">Детальніше</button>
+  </div>
 </section>
