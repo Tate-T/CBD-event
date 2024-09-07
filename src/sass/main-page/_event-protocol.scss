@@ -6,8 +6,8 @@
   background-color: $white-secondary;
 
   @media screen and (min-width: 768px) {
-    background-size: 490px 461px;
-    background-position: 560px 55px;
+    background-size: 500px 461px;
+    background-position: 280px 50px;
     padding-top: 88px;
     padding-bottom: 64px;
     background-image: url(../img/desktop/main-page/backgroundprotocol@desktop1x.jpg);
@@ -35,7 +35,7 @@
     font-size: 30px;
     line-height: 40px;
     font-weight: 500;
-    color: #fdfdfd;
+    color: $white-text;
     min-width: 327px;
     margin-bottom: 16px;
 
@@ -43,6 +43,7 @@
       min-width: 657px;
       font-size: 40px;
       line-height: 48px;
+      margin-bottom: 32px;
     }
 
     @media screen and (min-width: 1360px) {
@@ -62,7 +63,6 @@
   }
   &__line div {
     display: none;
-    background-color: #fdfdfd;
 
     @media screen and (min-width: 1360px) {
       display: inherit;
@@ -77,6 +77,7 @@
     gap: 24px;
 
     @media screen and (min-width: 768px) {
+      gap: 16px;
     }
 
     @media screen and (min-width: 1360px) {
@@ -88,12 +89,12 @@
     border-radius: 8px;
 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #fdfdfd;
-    width: 343px;
+    background-color: $white-text;
+    width: 323px;
 
     @media screen and (min-width: 768px) {
       width: 316px;
-      margin-top: 48px;
+      height: 60px;
     }
 
     @media screen and (min-width: 1360px) {
@@ -108,8 +109,9 @@
 
   &__numberbox {
     display: flex;
-    gap: 26px;
+    gap: 66px;
     padding: 10px 16px;
+    align-items: center;
 
     @media screen and (min-width: 768px) {
     }
@@ -139,17 +141,24 @@
   }
 
   &__title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
     color: $gold-text;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 36px;
-    word-wrap: break-word;
+
+    @media screen and (min-width: 1360px) {
+      color: $gold-text;
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 36px;
+      word-wrap: break-word;
+    }
   }
 
   &__item {
     display: none;
 
-    color: #3d3c39;
+    color: $black-text;
 
     @media screen and (min-width: 1360px) {
       font-size: 18px;
