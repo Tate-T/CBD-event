@@ -36,18 +36,18 @@
     line-height: 40px;
     font-weight: 500;
     color: $white-text;
-    max-width: 300px;
     margin-bottom: 16px;
+    width: 300px;
 
     @media screen and (min-width: 768px) {
-      min-width: 657px;
+      width: 657px;
       font-size: 40px;
       line-height: 48px;
       margin-bottom: 32px;
     }
 
     @media screen and (min-width: 1360px) {
-      min-width: 920px;
+      width: 920px;
       font-size: 56px;
 
       line-height: 64px;

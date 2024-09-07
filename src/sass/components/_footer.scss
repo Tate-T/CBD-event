@@ -98,7 +98,7 @@
     border-radius: 4px;
     border: 1px solid $gold-logo;
     background-color: $white-text;
-    max-width: 343px;
+    width: 300px;
     padding: 12px 8px;
     color: $gold-text;
     font-size: 14px;
@@ -136,7 +136,7 @@
     color: $white-secondary;
     font-weight: 400;
     line-height: 18px;
-    font-size: 13px;
+    font-size: 12px;
     width: 154px;
 
     @media screen and (min-width: 768px) {
@@ -151,7 +151,7 @@
   }
   &__list {
     display: flex;
-    column-gap: 21px;
+    column-gap: 18px;
     row-gap: 24px;
     flex-wrap: wrap;
 
@@ -188,7 +188,7 @@
     gap: 8px;
   }
   &__item:nth-child(1) {
-    width: 152px;
+    width: 140px;
     position: static;
     @media screen and (min-width: 768px) {
       width: 200px;
@@ -202,7 +202,7 @@
     }
   }
   &__item:nth-child(2) {
-    width: 150px;
+    width: 140px;
     @media screen and (min-width: 768px) {
       width: 183px;
     }
@@ -212,7 +212,7 @@
   }
   &__item:nth-child(3) {
     order: 4;
-    width: 150px;
+    width: 140px;
     @media screen and (min-width: 768px) {
       width: 215px;
     }
@@ -221,7 +221,7 @@
     }
   }
   &__item:nth-child(4) {
-    width: 152px;
+    width: 142px;
     position: static;
     @media screen and (min-width: 768px) {
       width: 246px;
@@ -301,7 +301,7 @@
   }
   &__div {
     text-align: right;
-    margin-top: 124px;
+    margin-top: 146px;
 
     @media screen and (min-width: 768px) {
     //   gap: 174px;
