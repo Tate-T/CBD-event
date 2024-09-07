@@ -63,7 +63,7 @@
     position: absolute;
     left: 178px;
     top: -240px;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 40px; /* 133.333% */
 
     @media screen and (min-width: 768px) {
@@ -105,7 +105,7 @@
 
   &__subtext {
     color: $black-text;
-    width: 327px;
+    width: 300px;
     color: $black-text;
     font-size: 14px;
     font-weight: 400;
@@ -154,7 +154,7 @@
     text-align: center;
     border-radius: 4px;
     background-color: $white-fon;
-    width: 323px;
+    width: 300px;
     padding-top: 12px;
     padding-bottom: 12px;
     margin-top: 8px;
@@ -194,7 +194,7 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 18px; 
-    width: 323px;
+    width: 300px;
     padding-top: 12px;
     padding-bottom: 12px;
     margin-top: 24px;
@@ -266,7 +266,7 @@
     left: 183px;
     top: 110px;
     background-color: $gold-text;
-    width: 160px;
+    width: 140px;
     height: 2px;
     @media screen and (min-width: 768px) {
       display: none;

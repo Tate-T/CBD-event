@@ -2,10 +2,10 @@
   padding-top: 48px;
   padding-bottom: 48px;
   background-repeat: no-repeat;
-  max-width: 376px;
+  max-width: 320px;
   margin: 0 auto;
-  background-size: 162px 120px, 162px 120px, 144px 256px;
-  background-position-x: 24px, 24px, 206px;
+  background-size: 142px 110px, 142px 110px, 124px 246px;
+  background-position-x: 16px, 16px, 180px;
   background-position-y: 280px, 144px, 144px;  
   background-image: url(../img/mobile/main-page/long-table@mobile2x.webp),
     url(../img/mobile/main-page/harrison@mobile1x.webp),
@@ -64,7 +64,7 @@
   }
 
   &__title {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 500;
     line-height: 40px;
     color: $gold-text;
@@ -109,7 +109,7 @@
   &__bttn {
     color: $green-text;
     padding: 12px 12px;
-    width: 323px;
+    width: 300px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 14px;

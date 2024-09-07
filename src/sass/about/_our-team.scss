@@ -61,7 +61,7 @@
         }
     }
     &__item {
-        width: 324px;
+        width: 300px;
         height: 162px;
         padding: 8px;
         border-radius: 16px;
@@ -138,7 +138,7 @@
         margin-bottom: 32px;
         display: inherit;
         color: $blue-information;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 700;
         line-height: 18px; 
         padding-left: 92px;
@@ -159,7 +159,7 @@
         margin-bottom: 4px;
         display: inherit;
         color: $blue-information;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 700;
         line-height: 18px; 
         padding-left: 92px;
@@ -178,7 +178,7 @@
     &__div button {
         display: block;
         margin: 0 auto;
-        width: 290px;
+        width: 260px;
         padding: 12px;
         border-radius: 4px;
         background-color: $green-text;
