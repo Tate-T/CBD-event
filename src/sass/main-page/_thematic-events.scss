@@ -11,6 +11,7 @@
 
   &__container {
     @media screen and (min-width: 768px) {
+      position: relative;
     }
 
     @media screen and (min-width: 1360px) {
@@ -20,6 +21,7 @@
   &__titlebox {
     @media screen and (min-width: 768px) {
       padding: 8px 8px;
+      position: relative;
     }
 
     @media screen and (min-width: 1360px) {
@@ -51,7 +53,6 @@
     padding-left: 34px;
 
     @media screen and (min-width: 768px) {
-      margin-bottom: 8px;
     }
 
     @media screen and (min-width: 1360px) {
@@ -92,12 +93,48 @@
     margin-top: 16px;
 
     @media screen and (min-width: 768px) {
+      margin-top: 10px;
+      position: absolute;
+      top: 25%;
+      left: 3%;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 32px;
+    }
+
+    @media screen and (min-width: 1360px) {
       margin-top: 0px;
+      font-size: 28px;
+      line-height: 36px;
+      top: 29%;
+      left: 1%;
+    }
+  }
+
+  &__contentbox {
+    @media screen and (min-width: 768px) {
+    }
+
+    @media screen and (min-width: 1360px) {
+      padding-right: 145px;
     }
   }
 
   &__textbox {
     padding: 8px 8px;
+
+    @media screen and (min-width: 768px) {
+      width: 333px;
+      text-align: left;
+      margin-top: 16px;
+      padding-right: 21px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      width: 537px;
+      text-align: left;
+      padding-top: 104px;
+    }
   }
 
   &__text {
@@ -120,7 +157,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 16px;
 
     @media screen and (min-width: 768px) {
       justify-content: inherit;
@@ -137,16 +173,33 @@
     cursor: pointer;
     font-size: 14px;
     line-height: 18px;
+    margin-top: 16px;
 
     @media screen and (min-width: 768px) {
+      margin-top: 0px;
       background-color: transparent;
-      max-width: 240px;
+      max-width: 200px;
       max-height: 42px;
       font-size: 18px;
       line-height: 22px;
       display: inline-block;
       border-radius: 4px;
       border-bottom: 2px solid black;
+    }
+
+    @media screen and (min-width: 1360px) {
+      margin-top: 40px;
+      max-width: 240px;
+      max-height: 42px;
+    }
+  }
+
+  &__images {
+    @media screen and (min-width: 768px) {
+      margin-top: 16px;
+    }
+
+    @media screen and (min-width: 1360px) {
     }
   }
 }
