@@ -3,9 +3,11 @@
   background-repeat: no-repeat;
   padding-top: 40px;
   padding-bottom: 48px;
-  background-color: rgba(151, 151, 151, 1);
+  background-color: $white-secondary;
 
   @media screen and (min-width: 768px) {
+    background-size: 490px 461px;
+    background-position: 560px 55px;
     padding-top: 88px;
     padding-bottom: 64px;
     background-image: url(../img/desktop/main-page/backgroundprotocol@desktop1x.jpg);
@@ -16,6 +18,8 @@
     }
   }
   @media screen and (min-width: 1360px) {
+    background-position: 182px 76px;
+    background-size: 1280px 540px;
     padding-top: 108px;
     padding-bottom: 113px;
     background-image: url(../img/desktop/main-page/backgroundprotocol@desktop1x.jpg);
