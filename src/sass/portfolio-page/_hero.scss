@@ -1,7 +1,7 @@
 body {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 768px 282px;
+    background-size: 375px 282px;
     background-position-y: 48px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/desktop/portfolio-page/hero-portfolio@desktop1x.webp);
 
@@ -49,7 +49,7 @@ body {
         padding-bottom: 240px;
     }
     &__title {
-        font-size: 32px;
+        font-size: 34px;
         line-height: 56px;
         color: $white-fon;
         font-weight: 500;

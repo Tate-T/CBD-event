@@ -49,13 +49,11 @@
     }
 
     @media screen and (min-width: 1360px) {
-      width: 328px;
-      height: auto;
+      width: 318px;
+      height: 632px;
       padding: 16px 5px;
       gap: 32px;
-      margin-bottom: 100px;
       margin-right: 0;
-      align-items: center;
     }
   }
 
@@ -63,6 +61,7 @@
     @media screen and (min-width: 768px) {
       display: flex;
       gap: 12px;
+      padding-right: 0;
     }
 
     @media screen and (min-width: 1360px) {
@@ -96,6 +95,7 @@
       height: auto;
       padding: 16px 4px;
       margin-top: 100px;
+      padding-bottom: 0;
       margin-left: 0;
       align-items: center;
       justify-content: space-between;
@@ -104,7 +104,7 @@
 
   &__numberbox {
     display: flex;
-    width: 300px;
+    width: 290px;
     padding: 0px 4px;
     justify-content: space-between;
     align-items: center;
@@ -277,12 +277,14 @@
 
     @media screen and (min-width: 1360px) {
       font-size: 28px;
-      font-style: normal;
       font-weight: 500;
       line-height: 36px;
       width: 200px;
       height: 52px;
       padding: 8px 20px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px;
     }
   }
 }

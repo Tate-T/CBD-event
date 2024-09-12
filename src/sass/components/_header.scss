@@ -1,6 +1,7 @@
 .header {
     &__container {
         display: flex;
+        overflow: inherit;
     }
     &__div-mobile {
         display: flex;
