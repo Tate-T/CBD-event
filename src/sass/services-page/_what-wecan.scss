@@ -7,17 +7,29 @@
   @media screen and (min-width: 768px) {
     padding-top: 80px;
     padding-bottom: 48px;
-    background-size: 300px 208px;
-    background-image: none;
-    background-position-x: 60px;
+    background-position-x: -10px;
+    background-position-y: 15px;
+    background-image: url(../img/tablet/services-page/vec-pic@tablet-1x.webp);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../img/tablet/services-page/vec-pic@tablet-2x.webp);
+    }
   }
 
   @media screen and (min-width: 1360px) {
     padding-top: 100px;
     padding-bottom: 48px;
-    background-image: url(../img/desktop/about-page/service-plan@desktop1x.webp);
     background-position-x: 60px;
     background-size: 350px 280px;
+    background-image: url(../img/desktop/about-page/service-plan@desktop1x.webp);
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../img/desktop/about-page/service-plan@desktop2x.webp);
+  }
   }
 
   &__container {
@@ -33,7 +45,37 @@
     }
 
     @media screen and (min-width: 1360px) {
-      padding-left: 550px;
+      padding-left: 0px;
+    }
+  }
+
+  &__box {
+    margin-bottom: 8px;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 16px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      width: 1360px;
+    }
+  }
+
+  &__box div {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+
+    @media screen and (min-width: 1360px) {
+      background: $white-fon;
+      display: inherit;
+      width: 549px;
+      height: 2px;
     }
   }
 
@@ -48,12 +90,15 @@
     @media screen and (min-width: 768px) {
       font-size: 40px;
       line-height: 48px;
+      font-style: normal;
+      font-weight: 500;
     }
 
     @media screen and (min-width: 1360px) {
       font-size: 56px;
       line-height: 64px;
-      margin-bottom: 16px;
+      font-style: normal;
+      font-weight: 500;
     }
   }
 
@@ -68,7 +113,7 @@
       font-size: 20px;
       font-style: normal;
       font-weight: 400;
-      line-height: 32px;
+      line-height: 32px;  
     }
 
     @media screen and (min-width: 1360px) {
@@ -76,7 +121,7 @@
       font-style: normal;
       font-weight: 400;
       line-height: 32px;
-      padding-left: 219px;
+      margin-left: 810px;
     }
   }
 

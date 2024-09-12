@@ -2,24 +2,25 @@
   padding-top: 40px;
   padding-bottom: 48px;
   background-color: $white-secondary;
-
-
   background-repeat: no-repeat;
 
   @media screen and (min-width: 768px) {
     padding-top: 80px;
     padding-bottom: 48px;
-    background-position-x: 30px;
-    background-position-y: 330px;
-    background-image: url(../img/tablet/services-page/vector@tablet-1x.webp);
+    background-position-x: 0px, 670px;
+    background-position-y: 330px, 1px;
+    background-image: url(../img/tablet/services-page/vector@tablet-1x.webp),
+    url(../img/tablet/services-page/vector-up.webp);
   }
 
   @media screen and (min-width: 1360px) {
     padding-top: 100px;
     padding-bottom: 48px;
-    background-position-x: 40px;
-    background-position-y: 410px;
-    background-image: url(../img/desktop/services-page/vektor@desktop-1x.webp);
+    background-position-x: 40px, 375px, 1px;
+    background-position-y: 410px, 30px, 1px;
+    background-image: url(../img/desktop/services-page/vektor@desktop-1x.webp), 
+    url(../img/desktop/services-page/last-vecrors.webp),
+    url(../img/desktop/services-page/gold-line.webp);
   }
 
   &__title {
