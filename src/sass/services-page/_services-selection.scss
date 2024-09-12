@@ -29,13 +29,13 @@
   @media screen and (min-width: 1360px) {
     padding-top: 100px;
     padding-bottom: 48px;
-    background-size: 1360px 1272px;
-    background-image: url(../img/desktop/services-page/services-vektor@desktop1x.webp);
+    height: 1540px;
+    background-image: url(../img/desktop/services-page/services-vector@desktop-1x.webp);
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url(../img/desktop/services-page/services-vektor@desktop2x.webp);
+      background-image: url(../img/desktop/services-page/services-vector@desktop-2x.webp);
   }
   }
 

@@ -1,17 +1,43 @@
 .price {
   background: $white-secondary;
   background-repeat: no-repeat;
+  background-image: url(../img/mobile/services-page/last-vectorm.webp);
+  background-position-y: 55px;
   padding-top: 40px;
   padding-bottom: 120px;
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../img/mobile/services-page/last-vectorm@mobile-2x.webp);
+  }
 
   @media screen and (min-width: 768px) {
     padding-top: 80px;
     padding-bottom: 160px;
+    background-image: url(../img/tablet/services-page/last-vectort@tablet-1x.webp);
+    background-position-y: 55px;
+    background-position-x: 50px;
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../img/tablet/services-page/last-vectort@tablet-2x.webp);
+    }
   }
 
   @media screen and (min-width: 1360px) {
     padding-top: 128px;
     padding-bottom: 200px;
+    background-image: url(../img/desktop/services-page/last-vectord@desktop-1x.webp);
+    background-position-y: 90px;
+    background-position-x: 35px;
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../img/desktop/services-page/last-vectord@desktop-2x.webp);
+    }
   }
 
   &__box {
