@@ -16,6 +16,7 @@
   @media screen and (min-width: 768px) {
     padding-top: 80px;
     padding-bottom: 48px;
+    background-size: 400px 600px;
     background-image: url(../img/tablet/services-page/vectors@tablet-1x.webp);
 
     @media (min-device-pixel-ratio: 2),
@@ -163,6 +164,7 @@
     width: 300px;
     height: 56px;
     align-items: center;
+    padding-left: 8px;
 
     @media screen and (min-width: 768px) {
       width: 360px;
@@ -179,7 +181,7 @@
 
   &__subtitle {
     color: $gold-text;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -197,7 +199,6 @@
       font-style: normal;
       font-weight: 500;
       line-height: 36px;
-      padding: 8px;
     }
   }
 
@@ -211,11 +212,10 @@
     @media screen and (min-width: 1360px) {
       color: $black-text;
       display: inherit;
-      font-size: 20px;
+      font-size: 18px;
       font-style: normal;
       font-weight: 400;
       line-height: 32px;
-      padding: 8px;
     }
   }
 }
