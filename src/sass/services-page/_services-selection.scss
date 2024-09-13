@@ -1,16 +1,16 @@
 .services {
   padding-top: 40px;
   padding-bottom: 48px;
-  background-position-y: 215px;
+  background-position-y: 180px;
   background-repeat: no-repeat;
-  background-position-x: 30px;
-  background-position-y: 210px;
+  background-position-x: 40px;
+  background-size: 300px 500px;
   background-image: url(../img/mobile/services-page/picture-vec@mobile-1x.webp);
 
   @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../img/tablet/services-page/picture-vec@mobile-2x.webp);
+      background-image: url(../img/mobile/services-page/picture-vec@mobile-2x.webp);
     }
 
   @media screen and (min-width: 768px) {
@@ -30,6 +30,7 @@
     padding-top: 100px;
     padding-bottom: 48px;
     height: 1540px;
+    background-size: 1360px 1272px;
     background-image: url(../img/desktop/services-page/services-vector@desktop-1x.webp);
 
     @media (min-device-pixel-ratio: 2),

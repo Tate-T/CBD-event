@@ -5,6 +5,7 @@
   background-position-y: 55px;
   padding-top: 40px;
   padding-bottom: 120px;
+  background-size: 400px 770px;
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -15,6 +16,7 @@
   @media screen and (min-width: 768px) {
     padding-top: 80px;
     padding-bottom: 160px;
+    background-size: 680px 1050px;
     background-image: url(../img/tablet/services-page/last-vectort@tablet-1x.webp);
     background-position-y: 55px;
     background-position-x: 50px;
@@ -32,6 +34,7 @@
     background-image: url(../img/desktop/services-page/last-vectord@desktop-1x.webp);
     background-position-y: 90px;
     background-position-x: 35px;
+    background-size: 1440px 860px;
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
