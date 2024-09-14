@@ -75,8 +75,9 @@
     padding-right: 91px;
 
     @media screen and (min-width: 768px) and (max-width: 1359px) {
-      padding: 0px;
+      padding-right: 0px;
       width: 300px;
+      padding-bottom: 8px;
     }
 
     @media screen and (min-width: 1360px) {
@@ -115,7 +116,6 @@
   }
 
   &__text {
-    padding: 8px 4px;
     color: $blue-information;
     font-size: 14px;
     font-weight: 700;
@@ -123,7 +123,6 @@
     margin-top: 12px;
     margin-bottom: 4px;
     @media screen and (min-width: 768px) {
-      padding: 8px 8px;
       font-size: 16px;
       line-height: 18px;
       margin-top: 24px;
@@ -147,17 +146,15 @@
   }
 
   &__subtitle {
-    color: $gold-text;
+    color: $gold-logo;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    padding: 8px 4px;
-    margin-bottom: 8px;
+    margin-top: 12px;
 
     @media screen and (min-width: 768px) {
       font-size: 23px;
       line-height: 32px;
-      padding: 8px 8px;
       margin-top: 24px;
     }
 
@@ -172,10 +169,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 16px;
+    margin-top: 28px;
     background-color: rgba(248, 241, 233, 1);
 
     @media screen and (min-width: 768px) {
+      margin-top: 32px;
       background-color: transparent;
     }
   }
@@ -193,11 +191,11 @@
       padding: 12px 43px;
       font-size: 18px;
       line-height: 22px;
-      min-width: 240px;
-      max-height: 42px;
+      width: 240px;
+      height: 42px;
       display: inline-block;
       border-radius: 2px;
-      border-bottom: 2px solid black;
+      border-bottom: 1px solid black;
       cursor: pointer;
     }
   }

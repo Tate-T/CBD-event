@@ -153,6 +153,9 @@
         font-weight: 700;
         line-height: 22px;
     }
+    &__link-item a:hover {
+        color: $gold-logo;
+    }
     &__icon {
         width: 24px;
         height: 24px;
@@ -160,7 +163,7 @@
     }   
 }
 
-label {
+.navigation label {
     display: block;
     height: 30px;
     position: relative;

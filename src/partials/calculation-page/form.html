@@ -1,0 +1,531 @@
+<section class="calculation">
+  <div class="container calculation__container">
+    <div class="calculation__box">
+      <h2 class="calculation__title">Заповніть таблицю</h2>
+      <p class="calculation__article">* обов'язкові для заповнення поля</p>
+      <form>
+        <ul class="calculation__list">
+          <li class="calculation__item">
+            <label class="calculation__label">Ім’я*</label>
+            <input
+              type="text"
+              required
+              placeholder="Вікторія"
+              class="calculation__input"
+            />
+          </li>
+          <li class="calculation__item">
+            <label class="calculation__label">Прізвище*</label>
+            <input
+              type="text"
+              required
+              placeholder="Литовченко"
+              class="calculation__input"
+            />
+          </li>
+          <li class="calculation__item">
+            <label class="calculation__label">Пошта**</label>
+            <input
+              type="email"
+              required="email"
+              placeholder="viktoria_litovchenko@gmail.com"
+              class="calculation__input"
+            />
+          </li>
+          <li class="calculation__item">
+            <label class="calculation__label">Повторіть*</label>
+            <input
+              type="email"
+              required="email"
+              placeholder="viktoria_litovchenko@gmail.com"
+              class="calculation__input"
+            />
+          </li>
+          <li class="calculation__item">
+            <label class="calculation__label">Тема**</label>
+            <input
+              type="text"
+              required
+              placeholder="Запит ціни - зустрічі CBD"
+              class="calculation__calculationinput"
+            />
+          </li>
+          <li class="calculation__item">
+            <label class="calculation__label">Повідомлення*</label>
+            <input
+              type="text"
+              required
+              placeholder="Insert text here."
+              class="calculation__biginput"
+            />
+          </li>
+          <li class="calculation__item">
+            <label class="calculation__label">Компанія*</label>
+            <input type="text" required class="calculation__emptyinput" />
+          </li>
+          <li class="calculation__item">
+            <label class="calculation__label">Бюджет*</label>
+            <ul class="calculation__numericlist">
+              <li class="calculation__numericiteam">
+                <button type="button" class="calculation__numericbuton">
+                  1000-2500
+                </button>
+              </li>
+              <li class="calculation__numericiteam">
+                <button type="button" class="calculation__numericbuton">
+                  2501-3500
+                </button>
+              </li>
+              <li class="calculation__numericiteam">
+                <button type="button" class="calculation__numericbuton">
+                  3501-5000
+                </button>
+              </li>
+              <li class="calculation__numericiteam">
+                <button type="button" class="calculation__numericbuton">
+                  5001-10000
+                </button>
+              </li>
+              <li class="calculation__numericiteam">
+                <button type="button" class="calculation__numericbuton">
+                  10000+
+                </button>
+              </li>
+            </ul>
+          </li>
+          <li class="calculation__item">
+            <label class="calculation__label">Дата заходу*</label>
+            <button type="button" class="calculation__numericbuton">
+              mm/dd/yyyy
+            </button>
+          </li>
+          <li class="calculation__item">
+            <label class="calculation__label">Час дня*</label>
+            <ul class="calculation__timelist">
+              <li class="calculation__timeiteam">
+                <button type="button" class="calculation__bigtext">
+                  Сніданок, зустріч до полудня
+                </button>
+              </li>
+              <li class="calculation__timeiteam">
+                <button type="button" class="calculation__bigtext">Обід</button>
+              </li>
+              <li class="calculation__timeiteam">
+                <button type="button" class="calculation__bigtext">
+                  Вечеря
+                </button>
+              </li>
+              <li class="calculation__timeiteam">
+                <button type="button" class="calculation__bigtext">
+                  Не відомо
+                </button>
+              </li>
+            </ul>
+          </li>
+          <li class="calculation__item">
+            <label class="calculation__label">Кількість гостей</label>
+            <ul class="calculation__guestslist">
+              <li class="calculation__numericiteam">
+                <button type="button" class="calculation__numericbuton">
+                  0-50
+                </button>
+              </li>
+              <li class="calculation__numericiteam">
+                <button type="button" class="calculation__numericbuton">
+                  50-100
+                </button>
+              </li>
+              <li class="calculation__numericiteam">
+                <button type="button" class="calculation__numericbuton">
+                  100-150
+                </button>
+              </li>
+              <li class="calculation__numericiteam">
+                <button type="button" class="calculation__numericbuton">
+                  150-200
+                </button>
+              </li>
+              <li class="calculation__numericiteam">
+                <button type="button" class="calculation__numericbuton">
+                  200+
+                </button>
+              </li>
+            </ul>
+          </li>
+          <li class="calculation__item">
+            <label class="calculation__label">Це тематичний захід*</label>
+            <ul class="calculation__questionlist">
+              <div class="calculation__wrapcontainer">
+                <li class="calculation__numericiteam">
+                  <button type="button" class="calculation__numericbuton">
+                    Так
+                  </button>
+                </li>
+                <li class="calculation__numericiteam">
+                  <button type="button" class="calculation__numericbuton">
+                    Ні
+                  </button>
+                </li>
+              </div>
+              <li class="calculation__bignumericiteam calculation__bigiteam">
+                <button type="button" class="calculation__bignumericbuton">
+                  Що таке тематичний захід?
+                </button>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </form>
+      <div class="calculation__text-box">
+        <p class="calculation__informationtext calculation__infa">
+          Зустрічі та спеціальні заходи CBD 450 Massachusetts Ave, NW Вашингтон,
+          округ Колумбія 20001
+        </p>
+        <ul class="calculation__emaillist">
+          <li class="calculation__emailitem">
+            <p class="calculation__informationtext">
+              Телефон:
+              <span class="calculation__accented">+1 202 742 5923</span> x 160
+            </p>
+          </li>
+          <li class="calculation__emailiteam">
+            <p class="calculation__informationtext">
+              Електронна адреса:
+              <span class="calculation__accented">info@cbdmeetings.com</span>
+            </p>
+          </li>
+        </ul>
+        <ul class="calculation__listlink">
+          <li class="calculation__linkiteam">
+            <p class="calculation__informationtext">
+              Інтернет-магазин організації заходів
+            </p>
+          </li>
+          <li class="calculation__linkiteam">
+            <p class="calculation__informationtext">Подарунковий Шоколад</p>
+          </li>
+          <li class="calculation__linkiteam">
+            <p class="calculation__accented">http://www.giftedchocolate.com</p>
+          </li>
+        </ul>
+        <ul class="calculation__listsocialnetworks">
+          <li class="calculation__socialnetworksiteam">
+            <p class="calculation__informationtext">Соціальні мережі</p>
+          </li>
+          <li class="calculation__linkiteam">
+            <p class="calculation__informationtext">
+              Facebook.com/<span class="calculation__accented"
+                >CouturebyDesign</span
+              >
+            </p>
+          </li>
+          <li class="calculation__linkiteam">
+            <p class="calculation__informationtext">
+              Twitter:
+              <span class="calculation__accented">@couturebydesign</span>
+            </p>
+          </li>
+          <li class="calculation__linkiteam">
+            <p class="calculation__informationtext">
+              Електронна адреса:<span class="calculation__accented"
+                >info@cbdmeetings.com</span
+              >
+            </p>
+          </li>
+        </ul>
+        <button id="buttonC" type="submit" class="calculation__button">
+          Надіслати
+        </button>
+      </div>
+    </div>
+    <div class="calculation__div">
+      <p class="calculation__textrequest">
+        Якщо ви знаєте, який тип події хотіли б, надішліть запит на пропозицію.
+      </p>
+      <picture class="calculation__image">
+        <source
+          srcset="
+            ./img/desktop/calculation-page/calculation@desktop1x.png 1x,
+            ./img/desktop/calculation-page/calculation@desktop2x.png 2x
+          "
+          media="(min-width: 320px)"
+        />
+        <img
+          class="calculation__image"
+          src="./img/desktop/calculation-page/calculation@desktop1x.png"
+          alt="calculation image"
+        />
+      </picture>
+      <button type="button" id="buttonD" class="calculation__brochurebuton">
+        Загрузити брошуру
+      </button>
+
+      <form action="">
+        <label for="" class="calculation__label">Тип заходу*</label>
+        <ul class="calculation__listrespond">
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Вечірка
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Корпоративний захід
+              </button>
+            </li>
+          </div>
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Вечерній захід
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Збір коштів
+              </button>
+            </li>
+          </div>
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Рецепція
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Маркетинг стилю життя
+              </button>
+            </li>
+          </div>
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Святкова вечірка
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Політичний захід
+              </button>
+            </li>
+          </div>
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Ювілейне святкування
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Інше
+              </button>
+            </li>
+          </div>
+          <li class="calculation__iteamrespond">
+            <button type="button" class="calculation__buttonrespond">
+              Весілля
+            </button>
+          </li>
+        </ul>
+        <label for="" class="calculation__label">Вимоги до логістики*</label>
+        <ul class="calculation__listrespond">
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Аудіовізуал
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Звук <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+          </div>
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Відеозйомка
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button
+                type="button"
+                class="calculation__buttonrespond calculation__bigbuttonrespond"
+              >
+                <p class="calculation__bigminitext">Освітлення заходів</p>
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+          </div>
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Реєстраційний штат
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Фотозйомка
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+          </div>
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Послуги планування
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button
+                type="button"
+                class="calculation__buttonrespond calculation__bigbuttonrespond"
+              >
+                <p class="calculation__bigminitext">
+                  Мені не потрібні жодні з цих послуг
+                </p>
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+          </div>
+        </ul>
+        <label for="" class="calculation__label">Необхідне обладнання*</label>
+        <ul class="calculation__listrespond">
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Ноутбук <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Доступ в інтернет
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+          </div>
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Запис відео
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Мікрофон <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+          </div>
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Накладні мікрофони
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                ПодіумПодіум
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+          </div>
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Проекційний екран
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Проектор <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+          </div>
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Сцена <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Нічого не потрібно
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+          </div>
+        </ul>
+        <label class="calculation__label">Елементи підтримки реєстрації*</label>
+        <ul class="calculation__listrespond">
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Власники значків
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Шнурки <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+          </div>
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Роздатковий матеріал
+                <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Плакати <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+          </div>
+          <div class="calculation__rigtwrap">
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Вивіски <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+            <li class="calculation__iteamrespond">
+              <button type="button" class="calculation__buttonrespond">
+                Брошури <input class="calculation__chekbox" type="checkbox" />
+              </button>
+            </li>
+          </div>
+          <li class="calculation__iteamrespond">
+            <button type="button" class="calculation__buttonrespond">
+              Нічого не потрібно
+              <input class="calculation__chekbox" type="checkbox" />
+            </button>
+          </li>
+        </ul>
+        <p class="calculation__textplace">
+          Будь ласка, надайте нам будь-яку додаткову інформацію про вашу подію
+          чи потреби в управлінні місцем призначення
+        </p>
+        <input type="text" class="calculation__placeinput" />
+        <div class="calculation__codecontainer">
+          <img
+            src="./img/desktop/calculation-page/rectangle.png"
+            alt="rectangle"
+            class="calculation__imgcode"
+          />
+          <h3 class="calculation__titlcode">Введіть код:*</h3>
+          <input type="text" class="calculation__inputcode" />
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

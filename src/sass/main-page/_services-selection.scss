@@ -107,7 +107,7 @@
     flex-direction: column;
     gap: 12px;
     @media screen and (min-width: 768px) {
-      gap: 8px;
+      gap: 24px;
       padding: 12px 8px;
     }
 
@@ -139,20 +139,18 @@
 
   &__item {
     color: $black-text;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 18px;
 
     @media screen and (min-width: 768px) {
-      font-size: 24px;
+      font-size: 20px;
       line-height: 32px;
-      padding: 8px 8px;
+      font-weight: 500;
     }
 
     @media screen and (min-width: 1360px) {
-      padding-top: 8px;
-      padding-bottom: 8px;
-      font-size: 22px;
+      font-size: 21px;
       line-height: 36px;
     }
   }
@@ -243,7 +241,7 @@
 
   #size440px {
     @media screen and (min-width: 768px) {
-      width: 392px;
+      width: 414px;
       background-color: $gold-text;
     }
 
@@ -254,12 +252,12 @@
 
   #size382px {
     @media screen and (min-width: 768px) {
-      width: 342px;
+      width: 350px;
       background-color: $gold-text;
     }
 
     @media screen and (min-width: 1360px) {
-      width: 382px;
+      width: 372px;
     }
   }
 
@@ -267,6 +265,17 @@
     @media screen and (min-width: 768px) {
       width: 98px;
       background-color: $gold-text;
+    }
+  }
+  #line100px {
+    padding-left: 0;
+
+    @media screen and (min-width: 768px) {
+      padding-left: 142px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      padding-left: 160px;
     }
   }
 }
