@@ -69,18 +69,6 @@
       width: 900px;
     }
   }
-  &__image {
-    width: 240px;
-    height: 40px;
-    @media screen and (min-width: 768px) {
-      width: 174px;
-      height: 64px;
-    }
-    @media screen and (min-width: 1360px) {
-      width: 260px;
-      height: 95px;
-    }
-  }
   &__article {
     color: $black-text;
     font-size: 12px;

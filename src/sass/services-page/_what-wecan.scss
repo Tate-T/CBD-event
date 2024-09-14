@@ -7,7 +7,8 @@
   @media screen and (min-width: 768px) {
     padding-top: 80px;
     padding-bottom: 48px;
-    background-position-x: -10px;
+    background-size: 240px 208px;
+    background-position-x: -20px;
     background-position-y: 15px;
     background-image: url(../img/tablet/services-page/vec-pic@tablet-1x.webp);
 
@@ -51,10 +52,10 @@
   }
 
   &__box {
-    margin-bottom: 8px;
+    margin-bottom: 0px;
 
     @media screen and (min-width: 768px) {
-      margin-bottom: 16px;
+      margin-bottom: 0px;
     }
 
     @media screen and (min-width: 1360px) {
@@ -105,14 +106,15 @@
 
   &__text {
     color: $black-text;
-    font-size: 12px;
+    font-size: 11px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
 
     @media screen and (min-width: 768px) {
-      font-size: 20px;
+      font-size: 18px;
       font-style: normal;
+      text-align: right;
       font-weight: 400;
       line-height: 32px;  
     }
@@ -128,5 +130,9 @@
 
   &__div {
     padding-left: 0;
+
+    @media screen and (min-width: 768px) {
+      padding-left: 50px;
+    }
   }
 }
