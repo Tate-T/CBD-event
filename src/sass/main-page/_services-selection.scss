@@ -2,6 +2,8 @@
   padding-top: 48px;
   padding-bottom: 112px;
   background-color: grey;
+  animation-name: from-left;
+  animation-duration: 1s;
   @media screen and (min-width: 768px) {
     padding-top: 80px;
     padding-bottom: 48px;
@@ -170,6 +172,11 @@
 
   &__bttn {
     display: none;
+
+    &:hover {
+      color: $white-fon;
+      background: $green-text;
+    }
 
     @media screen and (min-width: 768px) {
       color: $green-text;

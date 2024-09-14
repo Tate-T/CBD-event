@@ -1,6 +1,8 @@
 .reviews {
   padding-top: 40px;
   padding-bottom: 48px;
+  animation-name: from-left;
+  animation-duration: 1s;
   background-color: $white-secondary;
   background-repeat: no-repeat;
 
@@ -177,6 +179,11 @@
     width: 300px;
     padding: 12px;
     align-items: flex-end;
+
+    &:hover {
+      color: $white-fon;
+      background: $green-text;
+    }
 
     @media screen and (min-width: 768px) {
       display: block;

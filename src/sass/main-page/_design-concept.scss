@@ -4,12 +4,15 @@
   background-repeat: no-repeat;
   max-width: 320px;
   margin: 0 auto;
+  animation-name: from-right;
+  animation-duration: 1s;
   background-size: 142px 110px, 142px 110px, 124px 246px;
   background-position-x: 16px, 16px, 180px;
   background-position-y: 280px, 144px, 144px;  
   background-image: url(../img/mobile/main-page/long-table@mobile2x.webp),
     url(../img/mobile/main-page/harrison@mobile1x.webp),
     url(../img/mobile/main-page/gillian-harrison1@mobile2x.webp);
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -116,6 +119,11 @@
     font-weight: 700;
     line-height: 18px;
     background-color: $white-fon;
+
+    &:hover {
+      color: $white-fon;
+      background: $green-text;
+    }
 
     @media screen and (min-width: 768px) {
       padding: 10px 43px;

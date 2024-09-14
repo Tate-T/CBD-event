@@ -36,8 +36,8 @@ body {
 }
 
 .hero {
-    
-    // position: relative;
+    animation-name: from-up;
+    animation-duration: 1s;
     padding-top: 64px;
     padding-bottom: 274px;
     @media screen and (min-width: 768px) {

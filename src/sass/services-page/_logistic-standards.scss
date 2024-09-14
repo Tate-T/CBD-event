@@ -1,6 +1,8 @@
 .logistic {
   padding-top: 40px;
   padding-bottom: 48px;
+  animation-name: from-right;
+  animation-duration: 1s;
 
   @media screen and (min-width: 768px) {
     padding-top: 30px;
@@ -112,6 +114,11 @@
     width: 300px;
     padding: 12px;
     align-items: flex-end;
+
+    &:hover {
+      color: $white-fon;
+      background: $green-text;
+    }
 
     @media screen and (min-width: 768px) {
       font-size: 16px;

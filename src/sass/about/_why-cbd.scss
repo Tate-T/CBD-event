@@ -1,209 +1,236 @@
 .why {
-    padding-bottom: 51px;
-    padding-top: 40px;
+  padding-bottom: 51px;
+  padding-top: 40px;
+  animation-name: from-right;
+  animation-duration: 1s;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 88px;
+    padding-bottom: 48px;
+  }
+
+  @media screen and (min-width: 1360px) {
+    padding-top: 88px;
+    padding-bottom: 48px;
+  }
+
+  &__box {
+    display: inherit;
+    margin-bottom: 16px;
 
     @media screen and (min-width: 768px) {
-        padding-top: 88px;
-        padding-bottom: 48px;
+      margin-bottom: 24px;
     }
 
     @media screen and (min-width: 1360px) {
-        padding-top: 88px;
-        padding-bottom: 48px;
+      display: flex;
+      gap: 40px;
+      margin-bottom: 88px;
     }
-    &__box {
-        display: inherit;
-        margin-bottom: 16px;
+  }
 
-        @media screen and (min-width: 768px) {
-            margin-bottom: 24px;
-        }
-    
-        @media screen and (min-width: 1360px) {
-            display: flex;
-            gap: 40px;
-            margin-bottom: 88px;
-        }
-    }
-    &__title {
-        color: $gold-text;
-        font-size: 32px;
-        line-height: 40px;
-        font-weight: 500;
-        @media screen and (min-width: 768px) {
-            font-size: 40px;
-            line-height: 48px; /* 120% */
-            text-align: right;
-        }
-    
-        @media screen and (min-width: 1360px) {
-            text-align: inherit;
-            font-size: 56px;
-            line-height: 64px; /* 114.286% */
-        }
-    }
-    &__line {
-        display: none;
-    
-        @media screen and (min-width: 1360px) {
-            display: inherit;
-            padding-top: 71px;
-            padding-bottom: 71px;
-        }
-    }
-    &__line div {
-        width: 760px;
-        height: 2px;
-        background-color: $gold-text;
-    }
-    &__div {
-        display: flex;
-        flex-direction: column;
-        @media screen and (min-width: 768px) {
-            flex-direction: row;
-            gap: 70px
-        }
-    
-        @media screen and (min-width: 1360px) {
-            gap: 40px;
-        }
-    }
-    &__yellow-div p {
-        color: $gold-logo;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 18px;
-        @media screen and (min-width: 768px) {
-            font-size: 16px;
-            line-height: 18px; 
-        }
-    
-        @media screen and (min-width: 1360px) {
-            font-size: 28px;
-            font-weight: 500;
-            line-height: 36px; 
-        }
-    }
-    &__yellow-text {
-        margin-bottom: 16px;
-    }
-    &__yellow-div button{
-        border-radius: 4px;
-        border: 2px solid $gold-logo;
-        background-color: $white-text;
-        width: 300px;
-        color: $gold-text;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 18px;
-        padding: 12px 58px;
-        margin-top: 16px;
+  &__title {
+    color: $gold-text;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
 
-        @media screen and (min-width: 768px) {
-            padding: 12px 8px;
-            width: 220px;
-            font-size: 16px;
-            margin-top: 24px;
-        }
-    
-        @media screen and (min-width: 1360px) {
-            padding: 10px 8px;
-            width: 240px;
-            font-size: 18px;
-            line-height: 22px;
-            margin-top: 120px;
-        }
+    @media screen and (min-width: 768px) {
+      font-size: 40px;
+      line-height: 48px;
+      text-align: right;
     }
-    &__yellow-div {
-        padding-right: 0;
-        padding-top: 12px;
-        border-right: none;
-        border-top: 2px solid $gold-text;
 
-        @media screen and (min-width: 768px) {
-            width: 280px;
-            border-top: none;
-            border-right: 2px solid $gold-text;
-            padding-right: 20px;
-            height: 480px;
-        }
-    
-        @media screen and (min-width: 1360px) {
-            width: 530px;
-            border: none;
-            padding-right: 0; 
-        }
+    @media screen and (min-width: 1360px) {
+      text-align: inherit;
+      font-size: 56px;
+      line-height: 64px;
     }
-    &__green-div {
-        width: 300px;
-        order: -1;
-        padding-bottom: 12px;
-        @media screen and (min-width: 768px) {
-            order: 1;
-            padding-bottom: 0;
-            padding-right: 0;
-            width: 343px;
-        }
-    
-        @media screen and (min-width: 1360px) {
-            width: 786px;
-        }
-    }
-    &__green-div p {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px; /* 150% */
-        color: $black-text;
-        margin-bottom: 28px;
-        width: 300px;
-        @media screen and (min-width: 768px) {
-            font-size: 14px;
-            line-height: 18px; /* 128.571% */
-            margin-bottom: 16px;
-            width: 347px;
-        }
-    
-        @media screen and (min-width: 1360px) {       
-            font-size: 20px;
-            line-height: 32px; /* 160% */
-            margin-bottom: 32px;
-            width: 786px;
-        }
-    }
-    &__green-div button {
-        border-radius: 4px;
-        border: none;
-        padding: 12px 8px;
-        background-color: $white-fon;
-        width: 300px;
-        color: $green-text;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 18px; /* 128.571% */
+  }
 
-        @media screen and (min-width: 768px) {
-            background-color: $white-text;
-            width: 200px;
-            font-size: 16px;
-            border-bottom: 1px solid $black-text;
-        }
-    
-        @media screen and (min-width: 1360px) {       
-            width: 240px;
-            font-size: 18px;
-            line-height: 22px; 
-        }
-    }
-    &__green-button {
-        padding-left: 0;
-    
-        @media screen and (min-width: 768px) {
-            padding-left: 154px;
-        }
-    
-        @media screen and (min-width: 1360px) {       
-            padding-left: 566px;
-        }
+  &__line {
+    display: none;
 
+    @media screen and (min-width: 1360px) {
+      display: inherit;
+      padding-top: 71px;
+      padding-bottom: 71px;
     }
+  }
+
+  &__line div {
+    width: 760px;
+    height: 2px;
+    background-color: $gold-text;
+  }
+
+  &__div {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      gap: 70px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      gap: 40px;
+    }
+  }
+
+  &__yellow-div p {
+    color: $gold-logo;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 16px;
+      line-height: 18px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 36px;
+    }
+  }
+
+  &__yellow-text {
+    margin-bottom: 16px;
+  }
+
+  &__yellow-div button {
+    border-radius: 4px;
+    border: 2px solid $gold-logo;
+    background-color: $white-text;
+    width: 300px;
+    color: $gold-text;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 12px 58px;
+    margin-top: 16px;
+
+    &:hover {
+      background-color: $gold-text;
+      color: $white-text;
+    }
+
+    @media screen and (min-width: 768px) {
+      padding: 12px 8px;
+      width: 220px;
+      font-size: 16px;
+      margin-top: 24px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      padding: 10px 8px;
+      width: 240px;
+      font-size: 18px;
+      line-height: 22px;
+      margin-top: 120px;
+    }
+  }
+
+  &__yellow-div {
+    padding-right: 0;
+    padding-top: 12px;
+    border-right: none;
+    border-top: 2px solid $gold-text;
+
+    @media screen and (min-width: 768px) {
+      width: 280px;
+      border-top: none;
+      border-right: 2px solid $gold-text;
+      padding-right: 20px;
+      height: 480px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      width: 530px;
+      border: none;
+      padding-right: 0;
+    }
+  }
+
+  &__green-div {
+    width: 300px;
+    order: -1;
+    padding-bottom: 12px;
+    @media screen and (min-width: 768px) {
+      order: 1;
+      padding-bottom: 0;
+      padding-right: 0;
+      width: 343px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      width: 786px;
+    }
+  }
+
+  &__green-div p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $black-text;
+    margin-bottom: 28px;
+    width: 300px;
+    @media screen and (min-width: 768px) {
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 16px;
+      width: 347px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      font-size: 20px;
+      line-height: 32px;
+      margin-bottom: 32px;
+      width: 786px;
+    }
+  }
+
+  &__green-div button {
+    border-radius: 4px;
+    border: none;
+    padding: 12px 8px;
+    background-color: $white-fon;
+    width: 300px;
+    color: $green-text;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+
+    &:hover {
+      color: $white-fon;
+      background: $green-text;
+    }
+
+    @media screen and (min-width: 768px) {
+      background-color: $white-text;
+      width: 200px;
+      font-size: 16px;
+      border-bottom: 1px solid $black-text;
+    }
+
+    @media screen and (min-width: 1360px) {
+      width: 240px;
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+
+  &__green-button {
+    padding-left: 0;
+
+    @media screen and (min-width: 768px) {
+      padding-left: 154px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      padding-left: 566px;
+    }
+  }
 }

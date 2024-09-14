@@ -1,6 +1,8 @@
 .lastnews {
   padding-top: 48px;
   padding-bottom: 128px;
+  animation-name: from-right;
+  animation-duration: 1s;
 
   @media screen and (min-width: 768px) {
     padding-top: 88px;
@@ -185,6 +187,11 @@
     line-height: 18px;
     border-radius: 4px;
     padding: 12px 43px;
+
+    &:hover {
+      color: $white-fon;
+      background: $green-text;
+    }
 
     @media screen and (min-width: 768px) {
       background-color: rgba(253, 253, 253, 1);
