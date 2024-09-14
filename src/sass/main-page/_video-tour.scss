@@ -132,6 +132,11 @@
     padding: 12px 43px;
     color: $green-text;
 
+    &:hover {
+      color: $white-fon;
+      background: $green-text;
+    }
+
     @media screen and (min-width: 768px) {
       background-color: $white-text;
     }

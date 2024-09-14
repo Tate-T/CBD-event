@@ -8,6 +8,7 @@
     padding-top: 88px;
     padding-bottom: 88px;
   }
+
   @media screen and (min-width: 1360px) {
     padding-top: 108px;
     padding-bottom: 200px;
@@ -53,6 +54,7 @@
       line-height: 26px;
       margin-bottom: 24px;
     }
+
     @media screen and (min-width: 1360px) {
       font-size: 20px;
       line-height: 32px;
@@ -66,16 +68,22 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 18px;
-    border-radius: 2px;
+    border-radius: 4px;
     border-bottom: 1px solid $black-text;
     background: transparent;
     cursor: pointer;
+
+    &:hover {
+      color: $white-fon;
+      background: $green-text;
+    }
 
     @media screen and (min-width: 768px) {
       padding: 10px 38px;
       font-size: 16px;
       line-height: 20px;
     }
+
     @media screen and (min-width: 1360px) {
       padding: 10px 43px;
       font-size: 18px;

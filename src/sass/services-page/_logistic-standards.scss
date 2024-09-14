@@ -115,6 +115,11 @@
     padding: 12px;
     align-items: flex-end;
 
+    &:hover {
+      color: $white-fon;
+      background: $green-text;
+    }
+
     @media screen and (min-width: 768px) {
       font-size: 16px;
       font-style: normal;

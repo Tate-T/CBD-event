@@ -177,6 +177,11 @@
     line-height: 18px;
     margin-top: 16px;
 
+    &:hover {
+      color: $white-fon;
+      background: $green-text;
+    }
+
     @media screen and (min-width: 768px) {
       margin-top: 0px;
       background-color: transparent;

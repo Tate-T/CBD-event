@@ -1,256 +1,261 @@
 .header {
-    animation-name: from-up;
-    animation-duration: 1s;
-    
-    &__container {
-        display: flex;
-        overflow: inherit;
-    }
-    &__div-mobile {
-        display: flex;
-        margin-left: 15px;
-        gap: 15px;
-        align-items: center;
+  animation-name: from-up;
+  animation-duration: 1s;
 
-        @media screen and (min-width: 768px){
-            margin-left: 105px;
-            gap: 145px;
-        }
+  &__container {
+    display: flex;
+    overflow: inherit;
+  }
 
-        @media screen and (min-width: 1360px){
-            display: none;
-        }
-    }
-    &__div-list {
-        display: none;
+  &__div-mobile {
+    display: flex;
+    margin-left: 15px;
+    gap: 15px;
+    align-items: center;
 
-        @media screen and (min-width: 1360px){
-            display: flex;
-            flex-direction: column;
-            width: 1130px;
-            margin-left: 75px;
-        }
+    @media screen and (min-width: 768px) {
+      margin-left: 105px;
+      gap: 145px;
     }
-    &__logo {
-        color: $gold-logo;
-        font-family: "Nunito", sans-serif;
-        font-weight: 800;
-        font-size: 40px;
-        line-height: 48px;
 
-        @media screen and (min-width: 768px){
-            font-size: 56px;
-            line-height: 64px;
-        }
+    @media screen and (min-width: 1360px) {
+      display: none;
+    }
+  }
 
-        @media screen and (min-width: 1360px){
-            font-size: 64px;
-            line-height: 80px;
-        }
-    }
-    &__logo-div{
-        padding: 0;
-        margin-right: 0;
+  &__div-list {
+    display: none;
 
-        @media screen and (min-width: 1360px){
-            padding-top: 56px;
-            padding-bottom: 10px;
-            padding-left: 8px;
-        }
+    @media screen and (min-width: 1360px) {
+      display: flex;
+      flex-direction: column;
+      width: 1130px;
+      margin-left: 75px;
     }
-    &__login {
-        font-size: 10px;
-        line-height: 18px;
-        color: $gold-text;
-        font-weight: 700;
-        padding-top: 0;
+  }
 
-        @media screen and (min-width: 768px){
-            font-size: 18px;
-            line-height: 22px;
-        }
-        @media screen and (min-width: 1360px){
-            padding-top: 20px;
-            margin-left: 111px;
-        }
-    }
-    &__mobile-menu {
-        display: flex;
-        padding: 10px 7px;
-        justify-content: center;
-        align-items: center;
-        background-color: transparent;
-        border: none;
+  &__logo {
+    color: $gold-logo;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
 
-        @media screen and (min-width: 768px){
-            padding: 12px 8px;
-        }
+    @media screen and (min-width: 768px) {
+      font-size: 56px;
+      line-height: 64px;
     }
-    &__icon-list {
-        margin-right: 128px;
-        align-self: top;
-        display: flex;
-        gap: 8px;
-        padding-bottom: 36.99px;
+
+    @media screen and (min-width: 1360px) {
+      font-size: 64px;
+      line-height: 80px;
     }
-    &__coordinates {
-        color: $gold-text;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 18px;
-        margin-right: 128px;
-        align-self: top;
+  }
+
+  &__logo-div {
+    padding: 0;
+    margin-right: 0;
+
+    @media screen and (min-width: 1360px) {
+      padding-top: 56px;
+      padding-bottom: 10px;
+      padding-left: 8px;
     }
-    &__info {
-        color: $gold-text;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 18px;
+  }
+
+  &__login {
+    font-size: 10px;
+    line-height: 18px;
+    color: $gold-text;
+    font-weight: 700;
+    padding-top: 0;
+
+    @media screen and (min-width: 768px) {
+      font-size: 18px;
+      line-height: 22px;
     }
-    &__div-item:nth-child(1) {
-        width: 1130px;
-        padding-bottom: 20px;
-        padding-top: 8px;
-        height: 68px;
-        border-bottom: 1px solid $white-secondary; 
+    @media screen and (min-width: 1360px) {
+      padding-top: 20px;
+      margin-left: 111px;
     }
-    &__div-item:nth-child(2) {
-        padding-top: 17px;
-        padding-bottom: 22px;
-        padding-left: 0;
-        width: 1130px;
+  }
+
+  &__mobile-menu {
+    display: flex;
+    padding: 10px 7px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+
+    @media screen and (min-width: 768px) {
+      padding: 12px 8px;
     }
-    &__link-list {
-        display: flex;
-        gap: 34px;
-        padding-bottom: 18px;
-        margin-right: 32px;
-    }
-    &__search-form {
-        padding: 8px 57px 8px 8px;
-        display: flex;
-        border-radius: 4px;
-        border: 1px solid $white-secondary;
-        position: relative;
-        background-color: transparent;
-        // border: none;
-    }
-    &__search-button {
-        position: absolute;
-        background-color: transparent;
-        border: none;
-        left: 119px;
-    }
-    &__search-input {
-        color: $white-secondary;
-        font-size: 17px;
-        font-weight: 700;
-        line-height: 22px;
-        width: 89px;
-        border: none;
-        background-color: transparent;
-    }
-    &__link-item {
-        color: $gold-logo;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 22px;
-    }
-    &__icon {
-        width: 24px;
-        height: 24px;
-        fill: $white-text;
-    }   
+  }
+
+  &__icon-list {
+    margin-right: 128px;
+    align-self: top;
+    display: flex;
+    gap: 8px;
+    padding-bottom: 36.99px;
+  }
+
+  &__coordinates {
+    color: $gold-text;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-right: 128px;
+    align-self: top;
+  }
+
+  &__info {
+    color: $gold-text;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  &__div-item:nth-child(1) {
+    width: 1130px;
+    padding-bottom: 20px;
+    padding-top: 8px;
+    height: 68px;
+    border-bottom: 1px solid $white-secondary;
+  }
+
+  &__div-item:nth-child(2) {
+    padding-top: 17px;
+    padding-bottom: 22px;
+    padding-left: 0;
+    width: 1130px;
+  }
+
+  &__link-list {
+    display: flex;
+    gap: 34px;
+    padding-bottom: 18px;
+    margin-right: 32px;
+  }
+
+  &__search-form {
+    padding: 8px 57px 8px 8px;
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid $white-secondary;
+    position: relative;
+    background-color: transparent;
+  }
+
+  &__search-button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    left: 119px;
+  }
+
+  &__search-input {
+    color: $white-secondary;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    width: 89px;
+    border: none;
+    background-color: transparent;
+  }
+
+  &__link-item {
+    color: $gold-logo;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    fill: $white-text;
+  }
 }
 
 label {
-    display: block;
-    height: 30px;
-    position: relative;
-    top: 15px;
-    margin-left: 40px;
+  display: block;
+  height: 30px;
+  position: relative;
+  top: 15px;
+  margin-left: 40px;
+}
+
+label span,
+label span::before,
+label span::after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: $gold-text;
+  position: absolute;
+  right: 0;
+  transition: 0.3s;
+}
+
+label span::before {
+  top: -8px;
+}
+label span::after {
+  top: 8px;
+}
+.menu {
+  display: none;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ label span {
+  transform: rotate(-45deg);
+}
+input[type="checkbox"]:checked ~ label span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+input[type="checkbox"]:checked ~ label span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+input[type="checkbox"]:checked ~ .menu {
+  display: inline;
+}
+
+.menu {
+  z-index: 1;
+  top: 48px;
+  left: 0;
+  position: absolute;
+  padding-top: 24px;
+  width: 100%;
+  height: 300px;
+  max-width: 1360px;
+  background-color: $gold-text;
+
+  @media screen and (min-width: 768px) {
+    top: 64px;
   }
 
-  label span,
-  label span::before,
-  label span::after {
-    content: "";
-    display: block;
-    width: 25px;
-    height: 2px;
-    background-color: $gold-text;
-    position: absolute;
-    right: 0;
-    transition: 0.3s;
+  &__link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
   }
-
-  label span::before {
-    top: -8px;
+  &__link-item a {
+    color: $white-text;
+    font-size: 22px;
+    line-height: 30px;
   }
-  label span::after {
-    top: 8px;
-  }
-  .menu {
-    display: none;
-  }
-
-  input[type="checkbox"]{
-      display: none;
-  }
-
-  input[type="checkbox"]:checked ~ label span {
-      transform: rotate(-45deg);
-    }
-  input[type="checkbox"]:checked ~ label span::before {
-      top: 0;
-      transform: rotate(0);
-    //   z-index: 2;
-    }
-
-    input[type="checkbox"]:checked ~ label span::after {
-        top: 0;
-        transform: rotate(90deg);
-      }
-
-//   input[type="checkbox"]:checked ~ label span::after {
-//       top: -25px;
-//       right: 35px;
-//       transform: rotate(90deg);
-//       position: absolute;
-//       display: flex;
-//       z-index: 100;
-//     }
-
-  input[type="checkbox"]:checked ~ .menu {
-      display: inline;
-    }
-
-
-    .menu {
-        z-index: 1;
-        top: 48px;
-        left: 0;
-        position: absolute;
-        padding-top: 24px;
-        width: 100%;
-        height: 300px;
-        max-width: 1360px;
-        background-color: $gold-text;
-
-        @media screen and (min-width: 768px){
-            top: 64px;
-        }
-    
-        &__link-list {
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-            justify-content: center;
-            align-items: center;
-        }
-        &__link-item a {
-            color: $white-text;
-            font-size: 22px;
-            line-height: 30px;
-        }
-    };
+}
