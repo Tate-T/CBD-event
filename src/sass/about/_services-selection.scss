@@ -2,6 +2,8 @@
     padding-top: 48px;
     padding-bottom: 48px;
     background-color: $white-secondary;
+    animation-name: from-left;
+    animation-duration: 1s;
 
     @media screen and (min-width: 748px){
         padding-top: 88px;

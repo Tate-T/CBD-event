@@ -1,4 +1,7 @@
 .header {
+    animation-name: from-up;
+    animation-duration: 1s;
+    
     &__container {
         display: flex;
         overflow: inherit;

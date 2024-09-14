@@ -1,5 +1,7 @@
 .price {
   background: $white-secondary;
+  animation-name: from-left;
+  animation-duration: 1s;
   background-repeat: no-repeat;
   background-image: url(../img/mobile/services-page/last-vectorm.webp);
   background-position-y: 55px;
