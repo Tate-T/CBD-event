@@ -79,7 +79,6 @@
 
   &__title {
     margin-bottom: 8px;
-    padding: 8px 8px;
     color: $white-text;
     font-size: 30px;
     font-weight: 500;
@@ -133,7 +132,6 @@
     }
     @media screen and (min-width: 1360px) {
       margin-left: 0px;
-      
     }
   }
 
@@ -146,13 +144,13 @@
     @media screen and (min-width: 768px) {
       font-size: 24px;
       line-height: 32px;
-      padding: 8px 8px;
+      // margin: 8px 8px;
     }
 
     @media screen and (min-width: 1360px) {
-      padding-top: 8px;
-      padding-bottom: 8px;
-      font-size: 22px;
+      // margin-top: 8px;
+      // margin-bottom: 8px;
+      font-size: 20px;
       line-height: 36px;
     }
   }
