@@ -160,6 +160,12 @@
     padding-top: 12px;
     padding-bottom: 12px;
     margin-top: 8px;
+
+    &:hover {
+      color: $white-fon;
+      background: $green-text;
+    }
+
     @media screen and (min-width: 768px) {
       color: $green-text;
       font-size: 16px;
@@ -200,6 +206,11 @@
     padding-top: 12px;
     padding-bottom: 12px;
     margin-top: 24px;
+
+    &:hover {
+      color: $white-fon;
+      background: $green-text;
+    }
 
     @media screen and (min-width: 768px) {
       display: none;

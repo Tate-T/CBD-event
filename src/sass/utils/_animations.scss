@@ -1,10 +1,6 @@
 @keyframes from-up {
     0% {
-        transform: translateY(-100px);
-    }
-
-    50% {
-        transform: translateX(-50px);
+        transform: translateY(-400px);
     }
 
     100% {
@@ -14,11 +10,7 @@
 
 @keyframes from-left {
     0% {
-        transform: translateX(-200px);
-    }
-
-    50% {
-        transform: translateX(-100px);
+        transform: translateX(-500px);
     }
 
     100% {
@@ -31,10 +23,6 @@
         transform: translateX(500px);
     }
 
-    50% {
-        transform: translateX(250px);
-    }
-
     100% {
         transform: translateX(0px);
     }
@@ -43,10 +31,6 @@
 @keyframes from-down {
     0% {
         transform: translateY(400px);
-    }
-
-    50% {
-        transform: translateX(200px);
     }
 
     100% {

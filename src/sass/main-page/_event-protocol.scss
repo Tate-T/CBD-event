@@ -13,12 +13,14 @@
     padding-top: 88px;
     padding-bottom: 64px;
     background-image: url(../img/desktop/main-page/backgroundprotocol@desktop1x.jpg);
+    
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: url(../img/desktop/main-page/backgroundprotocol@desktop2x.jpg);
     }
   }
+
   @media screen and (min-width: 1360px) {
     background-position: 182px 76px;
     background-size: 1280px 540px;
@@ -51,18 +53,19 @@
     @media screen and (min-width: 1360px) {
       width: 920px;
       font-size: 56px;
-
       line-height: 64px;
     }
   }
 
   &__line {
+
     @media screen and (min-width: 1360px) {
       display: flex;
       align-items: center;
       gap: 40px;
     }
   }
+  
   &__line div {
     display: none;
 

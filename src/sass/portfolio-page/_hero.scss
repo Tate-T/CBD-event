@@ -1,6 +1,4 @@
 body {
-    animation-name: from-left;
-    animation-duration: 1s;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 375px 282px;
@@ -39,6 +37,8 @@ body {
 }
 
 .hero {
+    animation-name: from-up;
+    animation-duration: 1s;
     padding-top: 48px;
     padding-bottom: 68px;
 

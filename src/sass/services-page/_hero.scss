@@ -1,6 +1,4 @@
 body {
-    animation-name: from-left;
-    animation-duration: 1s;
     background-position: center;
     background-repeat: no-repeat;
     background-position-y: 50px;
@@ -38,8 +36,8 @@ body {
 }
 
 .hero {
-    
-    // position: relative;
+    animation-name: from-up;
+    animation-duration: 1s;
     padding-top: 64px;
     padding-bottom: 380px;
     @media screen and (min-width: 768px) {
@@ -51,9 +49,6 @@ body {
         padding-bottom: 220px;
     }
     &__search-form {
-        // position: absolute;
-        // right: 0;
-        // top: 31px;
         padding: 8px 57px 8px 8px;
         display: flex;
         text-align: center;

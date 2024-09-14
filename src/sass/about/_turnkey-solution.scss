@@ -8,39 +8,46 @@
     padding-top: 88px;
     padding-bottom: 48px;
   }
+
   @media screen and (min-width: 1360px) {
     padding-top: 108px;
     padding-bottom: 48px;
   }
+
   &__box {
     display: inherit;
     margin-bottom: 16px;
     padding-left: 0;
+
     @media screen and (min-width: 768px) {
       margin-bottom: 24px;
       padding-left: 158px;
     }
+
     @media screen and (min-width: 1360px) {
       display: flex;
       gap: 40px;
       padding-left: 0;
     }
   }
+
   &__title {
     color: $gold-text;
     font-size: 30px;
     line-height: 40px;
     font-weight: 500;
+
     @media screen and (min-width: 768px) {
       font-size: 40px;
-      line-height: 48px; /* 120% */
+      line-height: 48px;
     }
 
     @media screen and (min-width: 1360px) {
       font-size: 56px;
-      line-height: 64px; /* 114.286% */
+      line-height: 64px;
     }
   }
+
   &__line {
     display: none;
 
@@ -51,33 +58,37 @@
       padding-right: 0;
     }
   }
+
   &__line div {
     width: 565px;
     height: 2px;
     background-color: $gold-text;
   }
+
   &__div1 p {
     color: $black-text;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
 
     @media screen and (min-width: 768px) {
       font-size: 13px;
       font-weight: 400;
-      line-height: 18px; /* 128.571% */
+      line-height: 18px;
     }
 
     @media screen and (min-width: 1360px) {
       font-size: 20px;
       font-weight: 400;
-      line-height: 32px; /* 160% */
+      line-height: 32px;
     }
   }
+
   &__div {
     display: flex;
     flex-direction: column;
     gap: 32px;
+
     @media screen and (min-width: 768px) {
       flex-direction: row;
       gap: 20px;
@@ -87,6 +98,7 @@
       gap: 80px;
     }
   }
+
   &__div1 {
     padding-top: 0;
     width: 100%;
@@ -101,11 +113,13 @@
       width: 730px;
     }
   }
+
   &__div2 p {
     color: $gold-logo;
     font-size: 11px;
     font-weight: 700;
     line-height: 18px;
+
     @media screen and (min-width: 768px) {
       font-size: 16px;
       line-height: 18px;
@@ -117,62 +131,68 @@
       line-height: 36px;
     }
   }
+
   &__image {
     margin-top: 0;
     margin-bottom: 0;
     width: 200px;
     height: 160px;
-    @media screen and (min-width: 768px) {
-        margin-top: 0;
-        margin-bottom: 24px;
-        width: 280px;
-        height: 220px;
-      }
-  
-      @media screen and (min-width: 1360px) {
 
-        width: 550px;
-        height: 600px;
-      }
+    @media screen and (min-width: 768px) {
+      margin-top: 0;
+      margin-bottom: 24px;
+      width: 280px;
+      height: 220px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      width: 550px;
+      height: 600px;
+    }
   }
+
   &__div2 {
     order: -1;
     display: flex;
     gap: 17px;
-    flex-direction: row;  
+    flex-direction: row;
     border-right: 0;
+
     @media screen and (min-width: 768px) {
-        gap: 24px;
-        flex-direction: column;
-        order: -1;
-        border-right: 2px solid $gold-text;
-        padding-right: 20px;
-      }
-  
-      @media screen and (min-width: 1360px) {
-        gap: 24px;
-        order: 0;
-        border-right: 0;
-      }
+      gap: 24px;
+      flex-direction: column;
+      order: -1;
+      border-right: 2px solid $gold-text;
+      padding-right: 20px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      gap: 24px;
+      order: 0;
+      border-right: 0;
+    }
   }
+
   &__text-div {
     order: 2;
     display: flex;
     flex-direction: column;
     gap: 4px;
     width: 164px;
+
     @media screen and (min-width: 768px) {
-        order: 2;
-        gap: 8px;
-        width: 340px;
-      }
-  
-      @media screen and (min-width: 1360px) {
-        order: 0;
-        gap: 16px;
-        width: 546px;
-      }
+      order: 2;
+      gap: 8px;
+      width: 340px;
+    }
+
+    @media screen and (min-width: 1360px) {
+      order: 0;
+      gap: 16px;
+      width: 546px;
+    }
   }
+
   &__button {
     display: inherit;
     border-radius: 4px;
@@ -183,10 +203,10 @@
     color: $green-text;
     font-size: 14px;
     font-weight: 700;
-    line-height: 18px; /* 128.571% */
+    line-height: 18px;
     margin-top: 32px;
     @media screen and (min-width: 768px) {
-        display: none;
-      }
+      display: none;
+    }
   }
 }
