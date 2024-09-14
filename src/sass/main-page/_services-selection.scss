@@ -24,7 +24,8 @@
   &__box {
     @media screen and (min-width: 1360px) {
       display: flex;
-      gap: 25px;
+      gap: 50px;
+      justify-content: center;
     }
   }
 
@@ -55,27 +56,6 @@
       display: inherit;
       width: 913px;
       height: 2px;
-    }
-  }
-
-  &__midline {
-    display: flex;
-    align-items: center;
-    background-color: $white-fon;
-
-    @media screen and (min-width: 768px) {
-      background-color: transparent;
-      padding-top: 24px;
-    }
-  }
-
-  &__midline div {
-    background-color: $gold-text;
-    height: 2px;
-    width: 350px;
-
-    @media screen and (min-width: 768px) {
-      display: none;
     }
   }
 
