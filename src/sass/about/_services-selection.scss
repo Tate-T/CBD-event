@@ -204,12 +204,17 @@
 
     @media screen and (min-width: 1360px) {
       width: 417px;
-      height: 280px;
+      height: 310px;
     }
   }
 
   #selectionImage {
     height: 160px;
     width: 160px;
+
+    @media screen and (min-width: 1360px) {
+      width: 417px;
+      height: 340px;
+    }
   }
 }

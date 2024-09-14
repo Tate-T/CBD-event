@@ -51,8 +51,9 @@
     }
 
     @media screen and (min-width: 1360px) {
+      margin-bottom: 0;
       width: 920px;
-      font-size: 56px;
+      font-size: 53px;
       line-height: 64px;
     }
   }
@@ -63,6 +64,7 @@
       display: flex;
       align-items: center;
       gap: 40px;
+      margin-bottom: 16px;
     }
   }
   
@@ -73,6 +75,7 @@
       display: inherit;
       width: 384px;
       height: 2px;
+      background-color: $white-fon;
     }
   }
 
