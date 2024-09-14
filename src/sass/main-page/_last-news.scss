@@ -1,6 +1,8 @@
 .lastnews {
   padding-top: 48px;
   padding-bottom: 128px;
+  animation-name: from-right;
+  animation-duration: 1s;
 
   @media screen and (min-width: 768px) {
     padding-top: 88px;

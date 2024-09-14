@@ -1,7 +1,9 @@
 .video {
   background-color: $white-secondary;
-
+  animation-name: from-left;
+  animation-duration: 1s;
   background-image: url(../img/desktop/main-page/backgroundvideo@tablet1x.jpg);
+  
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
