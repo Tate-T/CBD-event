@@ -156,6 +156,8 @@
       top: 20px;
       background-color: $gold-logo;
       left: 150px;
+
+      
     }
   
     // &__container {
@@ -207,6 +209,10 @@
       line-height: 36px;
       margin-bottom: 32px;
       max-width: 290px;
+
+      @media screen and (min-width: 1360px) {
+
+      }
     }
   
     &__minititle {
@@ -216,6 +222,10 @@
       font-weight: 700;
       line-height: 22px;
       margin-bottom: 16px;
+
+      @media screen and (min-width: 1360px) {
+
+      }
     }
   
     &__text {
@@ -247,6 +257,10 @@
       margin: 0 auto;
       margin-bottom: 0;
       width: 260px;
+
+      @media screen and (min-width: 1360px) {
+
+      }
     }
   
     &__calendar {
@@ -269,51 +283,69 @@
       line-height: 36px;
       padding-left: 124px;
       margin-top: 16px;
+
+      @media screen and (min-width: 1360px) {
+
+      }
     }
   
     &__table {
       border: 2px solid $black-text;
       border-radius: 6px;
       width: 446px;
+
+      @media screen and (min-width: 1360px) {
+
+      }
   
     }
   
     &__minitext {
-      padding-left: 389px;
-      text-wrap: nowrap;
-      color: $green-text;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 22px;
-      margin-bottom: 8px;
+
+      @media screen and (min-width: 1360px) {
+        padding-left: 389px;
+        text-wrap: nowrap;
+        color: $green-text;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        margin-bottom: 8px;
+      }
     }
   
     &__thth {
-      width: 62px;
-      height: 39px;
-      color: $gold-logo;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 22px;
+
+      @media screen and (min-width: 1360px) {
+        width: 62px;
+        height: 39px;
+        color: $gold-logo;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+      }
     }
   
     &__tbtd {
-      width: 62px;
-      height: 39px;
-      text-align: center;
-      color: $black-text;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 18px;
+
+
+      @media screen and (min-width: 1360px) {
+        width: 62px;
+        height: 39px;
+        text-align: center;
+        color: $black-text;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+      }
     }
   
     &__bigcontainer {
       
       @media screen and (min-width: 1360px) {
-        left: 936px;
+        left: 66%;
         top: 1400px;
         width: 446px;
         position: absolute;
