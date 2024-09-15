@@ -52,8 +52,9 @@
     }
   }
 
-  &__logo:hover {
-    opacity: 0.6
+  &__logo a:hover {
+    color: $white-fon;
+    transition-duration: 1s;
   }
 
   &__logo-div {
@@ -85,7 +86,8 @@
   }
 
   &__login:hover {
-    color: $gold-logo;
+    color: $white-fon;
+    transition-duration: 0.5s;
   }
 
   &__mobile-menu {
@@ -98,9 +100,6 @@
 
     @media screen and (min-width: 768px) {
       padding: 12px 8px;
-    }
-    &__link-item a:hover {
-        color: $gold-logo;
     }
     &__icon {
         width: 24px;
@@ -194,7 +193,8 @@
   }
 
   &__link-item:hover a {
-    color: $gold-logo;
+    color: $white-fon;
+    transition-duration: 0.5s;
   }
 
   &__icon {
