@@ -261,72 +261,64 @@
       }
     }
   
-    // &__titlecalendar {
-    //   color: $green-footer;
-    //   font-size: 28px;
-    //   font-style: normal;
-    //   font-weight: 500;
-    //   line-height: 36px;
-    //   padding-left: 124px;
-    //   margin-top: 16px;
-    // }
+    &__titlecalendar {
+      color: $green-footer;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 36px;
+      padding-left: 124px;
+      margin-top: 16px;
+    }
   
-    // &__table {
-    //   border: 2px solid $black-text;
-    //   border-radius: 6px;
+    &__table {
+      border: 2px solid $black-text;
+      border-radius: 6px;
+      width: 446px;
   
-    // }
+    }
   
-    // &__minitext {
-    //   padding-left: 389px;
-    //   text-wrap: nowrap;
-    //   color: $green-text;
-    //   font-size: 18px;
-    //   font-style: normal;
-    //   font-weight: 700;
-    //   line-height: 22px;
-    //   margin-bottom: 8px;
-    // }
+    &__minitext {
+      padding-left: 389px;
+      text-wrap: nowrap;
+      color: $green-text;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 22px;
+      margin-bottom: 8px;
+    }
   
-    // &__thth {
-    //   width: 62px;
-    //   height: 39px;
-    //   color: $gold-logo;
-    //   font-size: 18px;
-    //   font-style: normal;
-    //   font-weight: 700;
-    //   line-height: 22px;
-    // }
+    &__thth {
+      width: 62px;
+      height: 39px;
+      color: $gold-logo;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 22px;
+    }
   
-    // &__tbtd {
-    //   width: 62px;
-    //   height: 39px;
-    //   text-align: center;
-    //   color: $black-text;
-    //   font-size: 16px;
-    //   font-style: normal;
-    //   font-weight: 400;
-    //   line-height: 18px;
-    // }
+    &__tbtd {
+      width: 62px;
+      height: 39px;
+      text-align: center;
+      color: $black-text;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+    }
   
-    // &__bigcontainer {
-    //   position: absolute;
-    //   left: -30%;
-    //   top: 87%;
-    //   @media screen and (max-width: 768px) {
-    //     display: flex;
-    //     flex-direction: column;
-    //     align-items: center;
-    //   }
-    //   @media screen and (min-width: 768px) {
-    //     left: 20%;
-    //   top: 80%;
-    //   }
-    //   @media screen and (min-width: 1360px) {
-    //     left: 706px;
-    //   top: 1100px;
-    //   }
-    // }
+    &__bigcontainer {
+      
+      @media screen and (min-width: 1360px) {
+        left: 936px;
+        top: 1400px;
+        width: 446px;
+        position: absolute;
+      }
+    }
   
     &__iteam {
       @media screen and (max-width: 768px) {
