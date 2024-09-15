@@ -3,22 +3,15 @@ body {
     background-repeat: no-repeat;
     background-position-y: 48px;
     background-size: 375px 230px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/desktop/results-page/hero-results@desktop1x.webp);
-    
-    @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/desktop/results-page/hero-results@desktop2x.webp);
-    }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/desktop/clients-page/hero.jpg);
 
     @media screen and (min-width: 768px) {
         background-position-y: 66px;
-        background-size: 768px 308px;
+        background-size: 768px 346px;
     }
-
     @media screen and (min-width: 1360px) {
         background-position-y: 0;
-        background-size: 1440px 567px;
+        background-size: 1440px 597px;
     }
 }
 
@@ -26,18 +19,16 @@ body {
     animation-name: from-up;
     animation-duration: 1s;
     padding-top: 48px;
-    padding-bottom: 68px;
+    padding-bottom: 128px;
 
     @media screen and (min-width: 768px) {
         padding-top: 88px;
-        padding-bottom: 148px;
+        padding-bottom: 188px;
     }
-
     @media screen and (min-width: 1360px) {
         padding-top: 88px;
-        padding-bottom: 240px;
+        padding-bottom: 280px;
     }
-    
     &__title {
         font-size: 34px;
         line-height: 56px;
